@@ -13,8 +13,8 @@
 
         <TextView
             android:id="@+id/ueberschrfit"
-            android:layout_width="279dp"
-            android:layout_height="47dp"
+            android:layout_width="299dp"
+            android:layout_height="49dp"
             android:text="@string/h.Hefeberechnung"
             android:textSize="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -254,12 +254,12 @@
             android:id="@+id/button3"
             android:layout_width="47dp"
             android:layout_height="56dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="88dp"
             android:layout_marginEnd="8dp"
             android:text="?"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/ueberschrfit"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -267,10 +267,11 @@
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textSize="18sp"
             android:text="Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet."
             app:layout_constraintBottom_toTopOf="@+id/textView7"
             app:layout_constraintEnd_toStartOf="@+id/editText"
-            app:layout_constraintTop_toBottomOf="@+id/ueberschrfit" />
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
