@@ -34,7 +34,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="47dp"
-            android:text="Besonders am Anfang, kann es passieren das du Wörter in Rezepten siehst, welche sich sehr komisch und fremd anhören.Um dies zu ändern, liste ich dir die für mich wichtigsten Fachbegriffe aus und erkläre sie"
+            android:text="Besonders am Anfang werden dir viele Fremdwörter begegnen, die du noch nicht kennst. Um dir den Start zu erleichtern, liste ich dir die für mich wichtigsten Fachbegriffe auf und erkläre sie dir."
             android:textAlignment="center"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/textView"
@@ -64,7 +64,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
             android:textSize="20sp"
-            android:text="Die Gare nach dem Kneten, aber vor dem Formen, also z. B. dein Teig im Kühlschrank."
+            android:text="Die Ruhezeit des Teiges nach dem Kneten, aber vor dem Formen."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -90,7 +90,7 @@
             android:layout_marginTop="8dp"
             android:textSize="20sp"
             android:layout_marginEnd="9dp"
-            android:text="Die Gare, nach dem Formen deines Teigs, z. B. wenn du dein Teig in Brötchen geformt hast und diese dann noch ruhen lässt vor dem Backen."
+            android:text="Die Ruhezeit nach dem Formen des Teiges aber noch vor dem Backen."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView42"/>
@@ -116,7 +116,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
             android:textSize="20sp"
-            android:text="Als Schwaden bezeichnet man den Wasserdampf, welcher dem Backprozess zugeführt wird, er sorgt für ein besseres Krustenbild."
+            android:text="Als Schwaden bezeichnet man den Wasserdampf, der dem Backprozess zugeführt wird. Er sorgt für ein besseres Krustenbild."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView44"/>
@@ -141,7 +141,7 @@
             android:layout_marginStart="18dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Wie viel Kilogramm Wasser werden auf 100 Kilogramm Mehl verwendet. Umso höher die Teigausbeute (kurz TA) umso mehr Wasser wird also verwendet. &#10;Aber bitte beachte, umso höher die TA umso schwieriger ist die Verarbeitung. &#10;Als Beispiel: 500 Gramm Mehl sind im Rezept vorhanden und 300 Gramm Wasser. &#10;Das Ergebnis ist eine Teigausbeute von 160."
+            android:text="Die Teigausbeute (TA) gibt an, wie viel Kilogramm Wasser auf 100 Kilogramm Mehl verwendet wird. Je  höher die TA, desto mehr Wasser wird verwendet. &#10;Aber bitte beacht: Je höher die TA, umso schwieriger ist die Verarbeitung. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Teigausbeute von 160."
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -168,7 +168,7 @@
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Die Hydration ist an sich dasselbe, die TA. Diese wird jedoch in % ausgegeben. Dabei ist der prozentuale Anteil des Wassers im Verhältnis zum Mehl gesehen. &#10;Als Beispiel: 500 Gramm Mehl sind im Rezept vorhanden und 300 Gramm Wasser. &#10;Das Ergebnis ist eine Hydration von 60 %."
+            android:text="Die Hydration ist ansich dasselbe wie die TA, wird jedoch in Prozent angegeben. Dabei wird der prozentuale Anteil des Wassers im Verhältnis zum Mehl gerechnet. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Hydration von 60 %."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView48"/>
@@ -194,7 +194,7 @@
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Damit ist die Struktur des Mehls gemeint. Ist ein Mehl mit hoher Griffigkeit gefragt, meint man damit ein dunkles Mehl mit hohem Schalenanteil."
+            android:text="Die Griffigkeit bescheibt die Struktur des Mehls. Ist ein Mehl mit hoher Griffigkeit gefragt, ist damit ein dunkles Mehl mit hohem Schalenanteil gemeint."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView50"/>
@@ -220,7 +220,7 @@
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Gibt an, wie viel Milligramm Mineralstoffe auf 100 Gramm Mehl enthalten sind. &#10;Da die Mineralstoffe in dem äußeren Bereich des Korns liegt, steigt die Type, umso dunkler das Mehl wird."
+            android:text="Die Type gibt an, wie viel Milligramm Mineralstoffe auf 100 Gramm Mehl enthalten sind. &#10;Da die Mineralstoffe in dem äußeren Bereich des Korns liegen, steigt die Type, je dunkler das Mehl wird."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView52"/>
@@ -272,7 +272,7 @@
             android:textSize="20sp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Wird als Synonym für Formen benutzt."
+            android:text="Wird als Synonym für das Formen des Teiges benutzt."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView56"/>
@@ -298,7 +298,7 @@
             android:layout_marginStart="18dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="9dp"
-            android:text="Das durch einen Schnitt oder durch zufällig aufgerissene Teil der Kruste, welche im Backprozess entsteht."
+            android:text="Der aufgerissene Teil der Kruste, welcher im Backprozess entsteht, wird Ausbund genannt. Dieser kann durch einen Schnitt oder zufällig entstehen."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView58"/>
