@@ -14,6 +14,4 @@ import com.example.myapplication.R;
 
 public class SettingsFragment extends Fragment {
 
-        return rootView;
-    }
 }
