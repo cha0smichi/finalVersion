@@ -54,7 +54,6 @@
     <string name="h.Teigruhebeendet">Teigruhe ist beendet um:</string>
     <string name="e.Uschrift">Einstellungen</string>
     <string name="Frage">?</string>
-    <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
     <string name="w.Fachbegriffe">Fachbegriffe</string>
    <string name="w.Woerter">Besonders am Anfang werden dir viele Fremdwörter begegnen, die du noch nicht kennst. Um dir den Start zu erleichtern, liste ich dir die für mich wichtigsten Fachbegriffe auf und erkläre sie dir.</string>
     <string name="w.Stockgare">Stockgare:</string>
@@ -77,8 +76,22 @@
     <string name="w.synonym">Wird als Synonym für das Formen des Teiges benutzt.</string>
     <string name="w.ausbund">Ausbund:</string>
     <string name="w.ausbunderklaert">Der aufgerissene Teil der Kruste, welcher im Backprozess entsteht, wird Ausbund genannt. Dieser kann durch einen Schnitt oder zufällig entstehen.</string>
+    <string name="settings.Entwickler">Die Entwickler stellen sich vor:</string>
+    <string name="settings.michi">\u25BCMichi</string>
+    <string name="settings.sebi">\u25BCSebi</string>
+    <string name="VorstellungMichi">Mein Name ist Michael. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen.
 
+Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind.
 
+Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: Demnächst werde ich ein Studium in Biochemie beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen.
 
+Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen.
+In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen, und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren.</string>
+    <string name="VorstelungSebi">Mein Name ist Sebi und ich freue mich, mich euch vorzustellen. Mein Weg begann mit dem Abitur am Technischen Gymnasium, wo ich meine Begeisterung für Technologie und Innovation entdeckte. Anschließend folgte mein Studium der Informatik, das mich in die faszinierende Welt der Programmierung und digitalen Technologien eingeführt hat.
+
+Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Bereich autonomes Fahren. Die Idee, Fahrzeuge mit Hilfe von künstlicher Intelligenz und fortschrittlichen Algorithmen selbstständig navigieren zu lassen, fasziniert mich ungemein. Es ist ein Gebiet, das ständig wächst und die Zukunft der Mobilität maßgeblich beeinflussen wird.
+
+Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf freizubekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren.</string>
+    <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
 
 </resources>

@@ -39,7 +39,7 @@
             android:focusableInTouchMode="true"
 
             android:fontFamily="sans-serif"
-            android:text="Die Entwickler stellen sich vor:"
+            android:text="@string/settings.Entwickler"
             android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="sans-serif"
-            android:text="\u25BCMichi"
+            android:text="@string/settings.michi"
             android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +74,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="sans-serif"
-            android:text="\u25BCSebi"
+            android:text="@string/settings.sebi"
             android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/textView17"
@@ -86,14 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:text="Mein Name ist Michael. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen.
-
-Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind.
-
-Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: Demnächst werde ich ein Studium in Biochemie beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen.
-
-Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen.
-In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen, und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren."
+            android:text="@string/VorstellungMichi"
             app:layout_constraintEnd_toEndOf="parent"
 
             app:layout_constraintHorizontal_bias="0.498"
@@ -105,11 +98,7 @@ In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme i
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:text="mein Name ist Sebi und ich freue mich, mich euch vorzustellen. Mein Weg begann mit dem Abitur am Technischen Gymnasium, wo ich meine Begeisterung für Technologie und Innovation entdeckte. Anschließend folgte mein Studium der Informatik, das mich in die faszinierende Welt der Programmierung und digitalen Technologien eingeführt hat.
-
-Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Bereich autonomes Fahren. Die Idee, Fahrzeuge mit Hilfe von künstlicher Intelligenz und fortschrittlichen Algorithmen selbstständig navigieren zu lassen, fasziniert mich ungemein. Es ist ein Gebiet, das ständig wächst und die Zukunft der Mobilität maßgeblich beeinflussen wird.
-
-Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf freizubekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren."
+            android:text="@string/VorstelungSebi"
             app:layout_constraintEnd_toEndOf="parent"
 
             app:layout_constraintHorizontal_bias="0.498"

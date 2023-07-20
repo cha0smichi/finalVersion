@@ -49,4 +49,7 @@
     <string name="h.Sauerteihg">Sauerteig in g</string>
     <string name="h.Teigruhebeendet">Teigruhe ist beendet um:</string>
     <string name="e.Uschrift">Einstellungen</string>
+    <string name="Frage">\?</string>
+    <string name="Frage">\?</string>
+    <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
 </resources>
