@@ -19,9 +19,10 @@
             android:textSize="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.024" />
+            app:layout_constraintVertical_bias="0.021" />
 
         <TextView
             android:id="@+id/textView7"
@@ -33,7 +34,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ueberschrfit" />
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
         <EditText
             android:id="@+id/editText"
@@ -45,7 +46,7 @@
             android:hint="@string/h.inGramm"
             android:textSize="22dp"
             app:layout_constraintStart_toEndOf="@+id/textView7"
-            app:layout_constraintTop_toBottomOf="@+id/ueberschrfit" />
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
         <TextView
             android:id="@+id/textView2"
@@ -248,6 +249,28 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/resultlabel4" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="?"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/ueberschrfit"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Wie funktioniert dieser Rechner. Als Hauptaufgabe hat dieser Rechner, dass er die optimalste Hefemenge für ein bestimmtes Rezept findet. Schließlich kann es sein, das du z.B. ein Rezept findest, welches du nachbacken willst, jedoch sind dir die vorgegebenen Garzeiten des Teiges zu kurz oder willst den Teig in Kühlschrank lagern anstatt bei Raumtemperatur. Hierfür rechnest du das im Rezept genutzte mehl zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du dein Teig ruhen lassen willst, die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig gelagert werden soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf den Berechnen Knopf. Danach werden die benötigten Mengen an Frisch oder Trockenhefe oder auch an Sauerteig in Gramm ausgerechnet  "
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toStartOf="@+id/editText"
+            app:layout_constraintTop_toBottomOf="@+id/ueberschrfit" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
