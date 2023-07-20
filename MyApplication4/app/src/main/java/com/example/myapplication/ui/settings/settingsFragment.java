@@ -1,4 +1,4 @@
 package com.example.myapplication.ui.settings;
 
-public class settings {
+public class settingsFragment {
 }
