@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/headlineTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/headlineTextView2"
+        tools:context=".GalleryFragment">
+
+        <TextView
+            android:id="@+id/headlineTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="108dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:fontFamily="sans-serif"
+            android:text="\u25BCLass dir Zeit"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/contentTextView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Immer wieder sieht man sogenannte „Express Rezepte“ fürs Brotbacken im Internet. &#10;Diese versprechen ein frisches, selbstgemachtes Brot innerhalb weniger Stunden - meist mithilfe von sehr großen Mengen Hefe. &#10;Das kann natürlich nützlich sein, wenn man spontan frisches Brot backen will und dafür kaum Zeit hat. &#10;Sollte man jedoch regelmäßiger backen und Interesse an einem deutlich intensiveren Geschmack haben, rate ich dazu, auf die sogenannte „Langzeitführung“ umzusteigen. &#10;Für die optimale Hefemengen-Berechnung deines Lieblingsrezeptes dient dir dieser Rechner."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="sans-serif"
+            android:text="\u25BCJedes Brot verdient es,          ausgebacken zu werden!"
+            android:textAlignment="textStart"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView1" />
+
+        <TextView
+            android:id="@+id/headlineTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="\u25BCNichts überstürzen"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView2" />
+
+        <TextView
+            android:id="@+id/headlineTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="\u25BCOrganisiere dich vor dem Backen"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView3" />
+
+        <TextView
+            android:id="@+id/contentTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Rückschläge gehören dazu - auch beim Brotbacken. &#10;Besonders am Anfang wirst du viele Fehler machen: versehentlich falsch verwendete Zutaten, falsche Mengenangaben oder eine klassische Übergare. &#10;Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. &#10;Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen. &#10;Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView2"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView2"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView2" />
+
+        <TextView
+            android:id="@+id/contentTextView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView3"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView3"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView3" />
+
+        <TextView
+            android:id="@+id/contentTextView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. &#10;Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, &#10;mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. &#10;Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche. &#10;Falls dir ein Material fehlt, werde kreativ. &#10;So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein &#10;oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView4"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView4"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView4" />
+
+        <TextView
+            android:id="@+id/headlineTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_border"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="\u25BCWann sind mein Teig bzw. meine Teiglinge fertig  ?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView1"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView4" />
+
+        <TextView
+            android:id="@+id/contentTextView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Besonders am Anfang ist es schwierig, ein Teiggefühl zu entwickeln. Wie lange muss ich meinen Teig noch Kneten oder wie lange muss mein Teig noch ruhen. Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks:
+&#10;&#10;Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. &#10;Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. &#10;Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.
+&#10;&#10;Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. &#10;Drücke mit deinem Dauen eine leichte Kerbe in deinen Teig/Teigling. &#10;Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. &#10;Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. &#10;Für die optimale Gardauer, federt die kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/headlineTextView5"
+            app:layout_constraintStart_toStartOf="@id/headlineTextView5"
+            app:layout_constraintTop_toBottomOf="@id/headlineTextView5" />
+
+        <TextView
+            android:id="@+id/ueberschrift2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Tipps fürs Backen"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="148dp"
+            android:layout_height="328dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contentTextView5"
+            app:srcCompat="@drawable/bild6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Heferechner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Heferechner</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Heferechner</string>
+    <string name="menu_gallery">Tipps fürs Backen</string>
+    <string name="menu_slideshow">Backen im Urlaub</string>
+    <string name="menu_fach">Fachbegriffe</string>
+</resources>
