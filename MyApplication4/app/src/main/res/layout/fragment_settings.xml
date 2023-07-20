@@ -13,7 +13,7 @@
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/headlineTextView2"
         app:layout_constraintTop_toBottomOf="@+id/headlineTextView2"
-        tools:context=".settingsFragment">
+        tools:context=".SettingsFragment">
 
         <TextView
             android:id="@+id/ueberschrift2"

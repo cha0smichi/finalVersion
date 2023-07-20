@@ -36,6 +36,10 @@ public class SettingsFragment extends Fragment {
         textView17 = rootView.findViewById(R.id.textView17);
         textView18 = rootView.findViewById(R.id.textView18);
 
+        // Setze die Sichtbarkeit der TextViews auf "gone" zu Beginn
+        textView17.setVisibility(View.GONE);
+        textView18.setVisibility(View.GONE);
+
         headlineTextView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

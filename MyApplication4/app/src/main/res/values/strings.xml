@@ -53,6 +53,30 @@
     <string name="h.Sauerteihg">Sauerteig in g</string>
     <string name="h.Teigruhebeendet">Teigruhe ist beendet um:</string>
     <string name="e.Uschrift">Einstellungen</string>
+    <string name="Frage">?</string>
+    <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
+    <string name="w.Fachbegriffe">Fachbegriffe</string>
+   <string name="w.Woerter">Besonders am Anfang werden dir viele Fremdwörter begegnen, die du noch nicht kennst. Um dir den Start zu erleichtern, liste ich dir die für mich wichtigsten Fachbegriffe auf und erkläre sie dir.</string>
+    <string name="w.Stockgare">Stockgare:</string>
+    <string name="w.vordemformen">Die Ruhezeit des Teiges nach dem Kneten, aber vor dem Formen.</string>
+    <string name="w.Stueckgare">Stückgare:</string>
+    <string name="w.vordembacken">Die Ruhezeit nach dem Formen des Teiges aber noch vor dem Backen.</string>
+    <string name="w.Schwaden">Schwaden:</string>
+    <string name="w.krumenbild">Als Schwaden bezeichnet man den Wasserdampf, der dem Backprozess zugeführt wird. Er sorgt für ein besseres Krustenbild.</string>
+    <string name="w.Teigausbeute">Teigausbeute:</string>
+    <string name="w.TAerklaert">Die Teigausbeute (TA) gibt an, wie viel Kilogramm Wasser auf 100 Kilogramm Mehl verwendet wird. Je  höher die TA, desto mehr Wasser wird verwendet. &#10;Aber bitte beacht: Je höher die TA, umso schwieriger ist die Verarbeitung. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Teigausbeute von 160.</string>
+    <string name="w.Hydration">Hydration:</string>
+    <string name="w.hydrationerklaaert">Die Hydration ist ansich dasselbe wie die TA, wird jedoch in Prozent angegeben. Dabei wird der prozentuale Anteil des Wassers im Verhältnis zum Mehl gerechnet. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Hydration von 60 %.</string>
+    <string name="w.griffigkeit">Griffigkeit:</string>
+    <string name="w.griffigekiterklaert">Die Griffigkeit bescheibt die Struktur des Mehls. Ist ein Mehl mit hoher Griffigkeit gefragt, ist damit ein dunkles Mehl mit hohem Schalenanteil gemeint.</string>
+    <string name="w.type">Type:</string>
+    <string name="w.typerklaert">Die Type gibt an, wie viel Milligramm Mineralstoffe auf 100 Gramm Mehl enthalten sind. &#10;Da die Mineralstoffe in dem äußeren Bereich des Korns liegen, steigt die Type, je dunkler das Mehl wird.</string>
+    <string name="w.Schluss">Schluss:</string>
+    <string name="w.schlusserklaert">Formt man einen Teigballen zu einer Form, gibt es eine Nahtstelle. Diese wird Schluss genannt.</string>
+    <string name="w.Wirken">Wirken:</string>
+    <string name="w.synonym">Wird als Synonym für das Formen des Teiges benutzt.</string>
+    <string name="w.ausbund">Ausbund:</string>
+    <string name="w.ausbunderklaert">Der aufgerissene Teil der Kruste, welcher im Backprozess entsteht, wird Ausbund genannt. Dieser kann durch einen Schnitt oder zufällig entstehen.</string>
 
 
 
