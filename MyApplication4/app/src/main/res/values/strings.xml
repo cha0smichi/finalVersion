@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Heferechner</string>
-    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
-    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Heferechner</string>
-    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="nav_header_desc">Navigation header</string>
 
     <string name="menu_home">Heferechner</string>
     <string name="menu_gallery">Tipps fürs Backen</string>
@@ -86,6 +86,6 @@ Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Be
 
 Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf freizubekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren.</string>
     <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
-    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
