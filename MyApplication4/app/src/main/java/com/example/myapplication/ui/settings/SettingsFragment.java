@@ -12,12 +12,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.myapplication.LanguageManager;
 import com.example.myapplication.R;
 
 public class SettingsFragment extends Fragment {
 
     private Button languageDE;
-    private Button languageEN;
+    private Button languageES;
     private Button languageHR;
 
     @Override
@@ -25,8 +26,26 @@ public class SettingsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_settings, container, false);
 
         languageDE = rootView.findViewById(R.id.languageDE);
-        languageEN = rootView.findViewById(R.id.languageEN);
+        languageES = rootView.findViewById(R.id.languageES);
         languageHR = rootView.findViewById(R.id.languageHR);
+
+        LanguageManager languageManager = new LanguageManager(this.getActivity());
+
+        languageDE.setOnClickListener(view -> {
+            languageManager.updateResource("de");
+            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
+            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+        });
+        languageES.setOnClickListener(view -> {
+            languageManager.updateResource("es");
+            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
+            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+        });
+        languageHR.setOnClickListener(view -> {
+            languageManager.updateResource("hr");
+            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
+            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+        });
 
         return rootView;
     }
