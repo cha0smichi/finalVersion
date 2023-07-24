@@ -14,3 +14,4 @@ import androidx.fragment.app.Fragment;
 import com.example.myapplication.R;
 
 public class SettingsFragment extends Fragment {
+}

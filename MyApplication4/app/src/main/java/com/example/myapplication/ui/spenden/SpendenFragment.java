@@ -9,11 +9,12 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.example.myapplication.R;
 
-public class SpendenFragment {
-}
+public class SpendenFragment extends Fragment {
+
     private TextView headlineTextView1;
     private TextView ueberschrift2;
     private TextView headlineTextView2;
