@@ -29,7 +29,7 @@ public class SpendenFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_settings, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_spenden, container, false);
         headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
         ueberschrift2 = rootView.findViewById(R.id.ueberschrift2);
         headlineTextView2 = rootView.findViewById(R.id.headlineTextView2);
