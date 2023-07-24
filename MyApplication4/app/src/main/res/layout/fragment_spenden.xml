@@ -20,7 +20,7 @@
             android:layout_height="51dp"
             android:layout_marginTop="24dp"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/e.Uschrift"
+            android:text="@string/menu_spenden"
             android:textSize="35dp"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
@@ -107,4 +107,3 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
-    ut>

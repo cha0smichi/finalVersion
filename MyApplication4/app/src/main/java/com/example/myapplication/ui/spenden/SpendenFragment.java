@@ -9,11 +9,12 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.example.myapplication.R;
 
-public class SpendenFragment {
-}
+public class SpendenFragment extends Fragment {
+
     private TextView headlineTextView1;
     private TextView ueberschrift2;
     private TextView headlineTextView2;
@@ -28,7 +29,7 @@ public class SpendenFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_settings, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_spenden, container, false);
         headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
         ueberschrift2 = rootView.findViewById(R.id.ueberschrift2);
         headlineTextView2 = rootView.findViewById(R.id.headlineTextView2);
