@@ -148,49 +148,48 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_width="147dp"
+            android:layout_height="100dp"
             android:text="@string/spenden.Kaffeekasse"
-            app:layout_constraintStart_toEndOf="@+id/textView42"
-            app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="242dp"
-            android:layout_height="122dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="104dp"
+            android:layout_width="147dp"
+            android:layout_height="100dp"
             android:text="@string/spenden.kostenloser"
-            app:layout_constraintStart_toEndOf="@+id/textView41"
-            app:layout_constraintTop_toBottomOf="@+id/headlineTextView8" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
-            android:layout_marginTop="40dp"
+            android:layout_width="147dp"
+            android:layout_height="100dp"
             android:text="@string/spenden.buttonKeks"
-            app:layout_constraintStart_toEndOf="@+id/textView20"
-            app:layout_constraintTop_toBottomOf="@+id/headlineTextView7" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="225dp"
-            android:layout_height="172dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/spenden.txtkeks"
-            app:layout_constraintEnd_toStartOf="@+id/button6"
-            app:layout_constraintHorizontal_bias="0.25"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView7" />
+
         <TextView
             android:id="@+id/headlineTextView8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/textview_border"
-            android:layout_marginTop="10dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
@@ -198,24 +197,27 @@
             android:text="@string/spenden.kostenloser"
             android:textSize="26sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/textView20"            />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
 
         <TextView
             android:id="@+id/textView41"
-            android:layout_width="225dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/spenden.txtkostenkeks"
-            app:layout_constraintEnd_toStartOf="@+id/button6"
-            app:layout_constraintHorizontal_bias="0.25"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView8" />
+
         <TextView
             android:id="@+id/headlineTextView9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/textview_border"
-            android:layout_marginTop="10dp"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
@@ -224,17 +226,21 @@
             android:text="@string/spenden.GeldfürunsereKaffeekasse"
             android:textSize="26sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/textView41"/>
+            app:layout_constraintTop_toBottomOf="@+id/button5"
+            tools:layout_editor_absoluteX="16dp" />
 
         <TextView
             android:id="@+id/textView42"
-            android:layout_width="225dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/spenden.txtKaffekasse"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
+            android:textAlignment="center"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
 
 
 
