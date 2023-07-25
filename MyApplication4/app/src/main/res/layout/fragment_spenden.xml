@@ -104,6 +104,160 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView3" />
 
+        <TextView
+            android:id="@+id/headlineTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:fontFamily="sans-serif"
+            android:text="Wie könnt Ihr uns unterstützen?"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Gerne kannst du uns auf drei verschiedene Weisen unterstützen. Du hast die Möglichkeit, einen köstlichen digitalen Glückskeks für nur 1€ zu kaufen und erhältst dann eine Zukunftsdeutung direkt im Anschluss an den Kauf. Aber mach dir keine Sorgen, die App bleibt natürlich auch in jeder Form kostenlos und kann ohne Spenden ohne Einschränkungen genutzt werden.
+Falls du kein Geld für diesen Keks ausgeben möchtest, kannst du stattdessen den Knopf für den -kostenlosen- Glückskeks anklicken. Dort musst du lediglich ein kurzes Werbevideo vollständig anschauen und erhältst dann sofort deine Zukunftsdeutung, ohne dass du dafür etwas bezahlen musst.
+Und sollte dir ein Glückskeks oder eine Zukunftsdeutung nicht zusagen, gibt es dennoch eine weitere Möglichkeit, wie du uns unterstützen kannst. Über den Button auf unserer Ko-Fi-Seite kannst du uns einen Beitrag für unsere Kaffeekasse hinterlassen, wenn du möchtest. Aber nochmal betont: Die Nutzung der App bleibt in jedem Fall kostenlos und ohne jegliche Einschränkungen.
+Deine Hilfe ist in jeder Form sehr willkommen, und wir danken dir herzlich für deine Unterstützung!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headlineTextView6" />
+        <TextView
+            android:id="@+id/headlineTextView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="sans-serif"
+            android:text="Glückskeks für 1€"
+    android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Kaffeekasse"
+            app:layout_constraintStart_toEndOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="242dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="104dp"
+            android:text="kostenloser Glückskeks"
+            app:layout_constraintStart_toEndOf="@+id/textView41"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView8" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="40dp"
+            android:text="Glückskeks"
+            app:layout_constraintStart_toEndOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView7" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="225dp"
+            android:layout_height="172dp"
+            android:layout_marginTop="20dp"
+            android:text="
+Mit diesem  Knopf kannst du einen köstlichen digitalen Glückskeks für nur 1€ erwerben und im Anschluss deine persönliche Zukunftsdeutung erhalten. Der Glückskeks bringt nicht nur Freude, sondern ermöglicht auch einen Einblick in deine Zukunft!
+
+Bitte beachte, dass der Kauf des Glückskekses mit echtem Geld erfolgt"
+            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView7" />
+        <TextView
+            android:id="@+id/headlineTextView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:fontFamily="sans-serif"
+            android:text="Kostenloser Glückskeks"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"            />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="
+Mit diesem besonderen Knopf erhältst du einen kostenlosen Glückskeks. Es ist ganz einfach: Drücke den Knopf, schau dir die kurze Werbung an, die daraufhin erscheint, und nachdem du die Werbung geschlossen hast, erhältst du sofort die Deutung deiner Zukunft.
+Das Beste daran ist, dass diese Version des Kekses für dich vollständig kostenlos ist! Gleichzeitig ist es für uns eine sinnvolle Möglichkeit, da wir durch die Werbeeinnahmen die App weiter verbessern können, damit du noch mehr Freude und Nutzen daraus ziehen kannst.
+Also worauf wartest du? Hol dir deinen kostenlosen Glückskeks und erhalte eine spannende Zukunftsdeutung!
+"
+            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView8" />
+        <TextView
+            android:id="@+id/headlineTextView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            android:fontFamily="sans-serif"
+            android:text="Geld für unsere Kaffeekasse"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/textView41"/>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="
+Wenn du auf diesen Button klickst, gelangst du direkt auf unsere Ko-Fi-Seite. Dort hast du die Möglichkeit, uns mit dem Zahlungsmittel deiner Wahl einen frei wählbaren Betrag in unsere Kaffeekasse zu geben. Mit diesem Geld können wir uns unser Lebenselixier, den Kaffee, kaufen und auch nachts an Verbesserungen für die App arbeiten.
+
+Denn wie heißt es so schön: -Glaube an Wunder, Liebe und vor allem an Kaffee.-
+        Deine Unterstützung ist uns eine enorme Hilfe, um die App noch besser und nutzerfreundlicher zu gestalten. Wir sind unglaublich dankbar für jeden Beitrag, der uns ermöglicht, unsere Leidenschaft für diese App fortzuführen und sie stetig zu verbessern.
+        Also, falls du uns unterstützen möchtest und uns eine Tasse Kaffee gönnen willst, freuen wir uns über jeden Beitrag, den du geben kannst.
+
+        Natürlich ist es mir wichtig, darauf hinzuweisen, dass du keinesfalls dein letztes Geld für diese App ausgeben solltest. Wenn du bereits Schwierigkeiten hast, Geld für wichtige Ausgaben wie die Miete zusammenzukratzen, dann freue dich einfach an dieser wundervollen kostenlosen App und behalte dein Geld lieber für die Dinge, die für dich wirklich wichtig sind.
+        Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, dass du dich in keiner Weise finanziell belastest. Die Nutzung der App bleibt weiterhin komplett kostenlos und unbeschränkt, sodass du sie jederzeit ohne Bedenken genießen kannst."
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
