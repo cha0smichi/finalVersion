@@ -21,7 +21,15 @@ public class SpendenFragment extends Fragment {
     private TextView headlineTextView3;
     private TextView textView17;
     private TextView textView18;
+    private TextView headlineTextView6;
+    private TextView headlineTextView7;
+    private TextView headlineTextView8;
+    private TextView headlineTextView9;
 
+    private TextView textView22;
+    private TextView textView20;
+    private TextView textView41;
+    private TextView textView42;
     private boolean isTextView17Visible = false;
     private boolean isTextView18Visible = false;
 
@@ -36,6 +44,14 @@ public class SpendenFragment extends Fragment {
         headlineTextView3 = rootView.findViewById(R.id.headlineTextView3);
         textView17 = rootView.findViewById(R.id.textView17);
         textView18 = rootView.findViewById(R.id.textView18);
+        headlineTextView6 = rootView.findViewById(R.id.headlineTextView6);
+        headlineTextView7 = rootView.findViewById(R.id.headlineTextView7);
+        headlineTextView8 = rootView.findViewById(R.id.headlineTextView8);
+        headlineTextView9 = rootView.findViewById(R.id.headlineTextView9);
+        textView20 = rootView.findViewById(R.id.textView20);
+        textView22 = rootView.findViewById(R.id.textView22);
+        textView41 = rootView.findViewById(R.id.textView41);
+        textView42 = rootView.findViewById(R.id.textView42);
 
         // Setze die Sichtbarkeit der TextViews auf "gone" zu Beginn
         textView17.setVisibility(View.GONE);
