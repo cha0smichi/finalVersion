@@ -332,7 +332,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.991"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/bild21"
+            app:srcCompat="@drawable/bild22"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
         <ImageView
@@ -351,7 +351,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
-            app:srcCompat="@drawable/bild22"
+            app:srcCompat="@drawable/bild21"
 />
 
         <ImageView

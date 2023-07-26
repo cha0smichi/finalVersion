@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import java.text.DecimalFormat;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,16 +24,16 @@ public class SlideshowFragment extends Fragment {
     private TextView textView13; // New TextView for textView13
     private TextView textView14; // New TextView for textView14
     private TextView textView15; // New TextView for textView15
-    private EditText editText1; // New EditText for editText1
-    private EditText editText2; // New EditText for editText2
-    private EditText editText3; // New EditText for editText3
-    private EditText editText4; // New EditText for editText4
     private EditText inputEditText1;
     private EditText inputEditText2; // New EditText
     private TextView outputTextView1;
     private TextView outputTextView2; // New TextView for Output
     private TextView textView12; // New TextView
     private TextView textView11; // New TextView
+    private ImageView editText1;
+    private ImageView editText2;
+    private ImageView editText3;
+    private ImageView editText4;
     private Button button;
     private Button button2; // New Button
 
@@ -52,10 +53,6 @@ public class SlideshowFragment extends Fragment {
         textView13 = rootView.findViewById(R.id.textView13); // Initialize textView13
         textView14 = rootView.findViewById(R.id.textView14); // Initialize textView14
         textView15 = rootView.findViewById(R.id.textView15); // Initialize textView15
-        editText1 = rootView.findViewById(R.id.EditText1); // Initialize editText1
-        editText2 = rootView.findViewById(R.id.EditText2); // Initialize editText2
-        editText3 = rootView.findViewById(R.id.EditText3); // Initialize editText3
-        editText4 = rootView.findViewById(R.id.EditText4); // Initialize editText4
         inputEditText1 = rootView.findViewById(R.id.inputEditText1);
         inputEditText2 = rootView.findViewById(R.id.inputEditText2); // Initialize inputEditText2
         outputTextView1 = rootView.findViewById(R.id.outputTextView1);
@@ -64,6 +61,11 @@ public class SlideshowFragment extends Fragment {
         textView11 = rootView.findViewById(R.id.textView11); // Initialize textView11
         button = rootView.findViewById(R.id.button);
         button2 = rootView.findViewById(R.id.button2); // Initialize button2
+        editText1 = rootView.findViewById(R.id.EditText1);
+        editText2 = rootView.findViewById(R.id.EditText2);
+        editText3 = rootView.findViewById(R.id.EditText3);
+        editText4 = rootView.findViewById(R.id.EditText4);
+
 
         linealEditText = rootView.findViewById(R.id.linealEditText); // Initialize linealEditText
 
@@ -75,10 +77,6 @@ public class SlideshowFragment extends Fragment {
         textView13.setVisibility(View.GONE); // Hide textView13 initially
         textView14.setVisibility(View.GONE); // Hide textView14 initially
         textView15.setVisibility(View.GONE); // Hide textView15 initially
-        editText1.setVisibility(View.GONE); // Hide editText1 initially
-        editText2.setVisibility(View.GONE); // Hide editText2 initially
-        editText3.setVisibility(View.GONE); // Hide editText3 initially
-        editText4.setVisibility(View.GONE); // Hide editText4 initially
         inputEditText1.setVisibility(View.GONE);
         inputEditText2.setVisibility(View.GONE); // Hide inputEditText2 initially
         outputTextView1.setVisibility(View.GONE);
@@ -89,6 +87,11 @@ public class SlideshowFragment extends Fragment {
         textView11.setVisibility(View.GONE); // Hide textView11 initially
         linealEditText.setVisibility(View.GONE); // Hide linealEditText initially
         textView15.setVisibility(View.GONE); // Hide textView15 initially
+        editText1.setVisibility(View.GONE);
+        editText2.setVisibility(View.GONE);
+        editText3.setVisibility(View.GONE);
+        editText4.setVisibility(View.GONE);
+
 
         // Set the OnClickListener for headlineTextView1
         headlineTextView1.setOnClickListener(new View.OnClickListener() {
@@ -105,6 +108,8 @@ public class SlideshowFragment extends Fragment {
                 toggleVisibility(textView12);
                 toggleVisibility(textView11); // Toggle visibility of textView11
                 toggleVisibility(linealEditText); // Toggle visibility of linealEditText
+                toggleImageVisibility(editText1); // Toggle visibility of editText1
+                toggleImageVisibility(editText2);
             }
         });
 
@@ -117,11 +122,11 @@ public class SlideshowFragment extends Fragment {
                 toggleVisibility(headlineTextView6);
                 toggleVisibility(textView13); // Toggle visibility of textView13
                 toggleVisibility(textView14); // Toggle visibility of textView14
-                toggleVisibility(editText1); // Toggle visibility of editText1
-                toggleVisibility(editText2); // Toggle visibility of editText2
-                toggleVisibility(editText3); // Toggle visibility of editText3
-                toggleVisibility(editText4); // Toggle visibility of editText4
                 toggleVisibility(textView15); // Toggle visibility of textView15
+                toggleImageVisibility(editText3); // Toggle visibility of editText3
+                toggleImageVisibility(editText4); //
+                toggleImageVisibility(editText1); // Toggle visibility of editText1
+                toggleImageVisibility(editText2);
             }
         });
 
@@ -154,6 +159,17 @@ public class SlideshowFragment extends Fragment {
         }
         // Update the constraints to reflect the visibility change
         textView.requestLayout();
+    }
+        private void toggleImageVisibility(ImageView imageView) {
+            int visibility = imageView.getVisibility();
+            if (visibility == View.GONE) {
+                imageView.setVisibility(View.VISIBLE);
+            } else {
+                imageView.setVisibility(View.GONE);
+            }
+            // Update the constraints to reflect the visibility change
+            imageView.requestLayout();
+
     }
 
     // Helper method to calculate and display the output for inputEditText1
