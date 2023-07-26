@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,9 +18,9 @@ import com.example.myapplication.R;
 
 public class SettingsFragment extends Fragment {
 
-    private Button languageDE;
-    private Button languageES;
-    private Button languageHR;
+    private ImageButton languageDE;
+    private ImageButton languageES;
+    private ImageButton languageHR;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

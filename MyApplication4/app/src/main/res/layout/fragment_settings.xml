@@ -10,35 +10,163 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/headlineTextView2"
-        app:layout_constraintTop_toBottomOf="@+id/headlineTextView2"
         tools:context=".SettingsFragment">
 
-        <Button
-        android:id="@+id/languageDE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/languageHR"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/languageES" />
+        <TextView
+            android:id="@+id/ueberschrift"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/menu_settings"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023" />
 
-        <Button
+        <TextView
+            android:id="@+id/Ueberschirft1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Spracheaendern"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ueberschrift" />
+
+
+        <ImageButton
+            android:id="@+id/languageDE"
+            android:layout_width="82dp"
+            android:foreground="@drawable/border"
+            android:layout_height="42dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/de"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Ueberschirft1" />
+
+        <ImageButton
             android:id="@+id/languageES"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="82dp"
+            android:foreground="@drawable/border"
+            android:layout_marginStart="2dp"
+            android:layout_height="42dp"
+            android:background="@drawable/es"
             android:text="ES"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toEndOf="@+id/languageEN"
+            app:layout_constraintTop_toBottomOf="@+id/Ueberschirft1" />
 
-        <Button
+        <ImageButton
             android:id="@+id/languageHR"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="82dp"
+            android:layout_marginTop="2dp"
+            android:foreground="@drawable/border"
+            android:layout_height="42dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/hr"
             android:text="HR"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageDE" />
+
+        <ImageButton
+            android:id="@+id/languageFR"
+            android:layout_width="82dp"
+            android:layout_marginTop="2dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/fr"
+            android:foreground="@drawable/border"
+            android:text="FR"
+            app:layout_constraintStart_toEndOf="@+id/languageJA"
+            app:layout_constraintTop_toBottomOf="@+id/languageES" />
+
+        <ImageButton
+            android:id="@+id/languageIT"
+            android:layout_width="82dp"
+            android:layout_marginTop="2dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="2dp"
+            android:foreground="@drawable/border"
+            android:background="@drawable/it"
+            android:text="IT"
+            app:layout_constraintStart_toEndOf="@+id/languageFR"
+            app:layout_constraintTop_toBottomOf="@+id/languageTR" />
+
+        <ImageButton
+            android:id="@+id/languageJA"
+            android:layout_width="82dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:foreground="@drawable/border"
+            android:layout_height="42dp"
+            android:background="@drawable/ja"
+            android:text="JA"
+            app:layout_constraintStart_toEndOf="@+id/languageHR"
+            app:layout_constraintTop_toBottomOf="@+id/languageEN" />
+
+        <ImageButton
+            android:id="@+id/languageNL"
+            android:foreground="@drawable/border"
+            android:layout_width="82dp"
+            android:layout_marginTop="2dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/nl"
+            android:text="NL"
+            app:layout_constraintStart_toEndOf="@+id/languageUK"
+            app:layout_constraintTop_toBottomOf="@+id/languageFR" />
+
+        <ImageButton
+            android:id="@+id/languageRU"
+            android:foreground="@drawable/border"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+
+            android:layout_marginStart="0dp"
+            android:background="@drawable/ru"
+            android:text="RU"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageHR" />
+
+        <ImageButton
+            android:id="@+id/languageTR"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="2dp"
+            android:foreground="@drawable/border"
+            android:background="@drawable/tr"
+            android:text="TR"
+            app:layout_constraintStart_toEndOf="@+id/languageES"
+            app:layout_constraintTop_toBottomOf="@+id/Ueberschirft1" />
+
+        <ImageButton
+            android:id="@+id/languageUK"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:foreground="@drawable/border"
+            android:background="@drawable/uk"
+            android:text="UK"
+            app:layout_constraintStart_toEndOf="@+id/languageRU"
+            app:layout_constraintTop_toBottomOf="@+id/languageJA" />
+
+        <ImageButton
+            android:id="@+id/languageEN"
+            android:layout_width="82dp"
+            android:layout_marginStart="2dp"
+            android:foreground="@drawable/border"
+            android:layout_height="42dp"
+            android:background="@drawable/en"
+            android:text="EN"
+            app:layout_constraintStart_toEndOf="@+id/languageDE"
+            app:layout_constraintTop_toBottomOf="@+id/Ueberschirft1" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
