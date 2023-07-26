@@ -160,6 +160,7 @@
             android:layout_width="147dp"
             android:layout_height="100dp"
             android:text="@string/spenden.kostenloser"
+            android:onClick="click"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView41" />
@@ -194,7 +195,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="sans-serif"
-            android:text="@string/spenden.kostenloser"
+            android:text="\u25BC+@string/spenden.kostenloser"
             android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -226,7 +227,7 @@
             android:text="@string/spenden.GeldfürunsereKaffeekasse"
             android:textSize="26sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
             tools:layout_editor_absoluteX="16dp" />
 
         <TextView
@@ -242,7 +243,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView9" />
 
-
+        <EditText
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

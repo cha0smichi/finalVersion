@@ -282,7 +282,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-        <EditText
+        <ImageView
             android:id="@+id/EditText1"
             android:layout_width="25mm"
             android:layout_height="25mm"
@@ -296,9 +296,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.939"
             app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bild20"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
-        <EditText
+        <ImageView
             android:id="@+id/EditText2"
             android:layout_width="25mm"
             android:layout_height="25mm"
@@ -312,10 +313,11 @@
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
+            app:srcCompat="@drawable/bild19"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
-        <EditText
+        <ImageView
             android:id="@+id/EditText3"
             android:layout_width="25mm"
             android:layout_height="25mm"
@@ -330,9 +332,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.991"
             app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bild21"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
-        <EditText
+        <ImageView
             android:id="@+id/EditText4"
             android:layout_width="25mm"
             android:layout_height="25mm"
@@ -347,7 +350,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:srcCompat="@drawable/bild22"
+/>
 
         <ImageView
             android:id="@+id/imageView3"

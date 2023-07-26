@@ -1,28 +1,68 @@
 package com.example.myapplication.ui.spenden;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.myapplication.R;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.OnUserEarnedRewardListener;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.rewarded.RewardItem;
+import com.google.android.gms.ads.rewarded.RewardedAd;
+import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
 
 public class SpendenFragment extends Fragment {
 
+    private RewardedAd rewardedAd;
+    private final String TAG = "SpendenFragment";
+
     private TextView headlineTextView1;
     private TextView ueberschrift2;
+    private EditText textView23;
     private TextView headlineTextView2;
     private TextView headlineTextView3;
+
     private TextView textView17;
+    private List<String> randomMessages = Arrays.asList(
+
+            "Du bist großartig! Vielen Dank!",
+            "Wir schätzen deine Spende sehr!",
+            "Deine Hilfe macht einen Unterschied!"
+
+
+    );
     private TextView textView18;
+
+
     private TextView headlineTextView6;
+
+    private String getRandomMessage() {
+        Random random = new Random();
+        int index = random.nextInt(randomMessages.size());
+        return randomMessages.get(index);
+    }
     private TextView headlineTextView7;
     private TextView headlineTextView8;
     private TextView headlineTextView9;
@@ -41,11 +81,72 @@ public class SpendenFragment extends Fragment {
     private boolean isTextView41Visible = false;
     private boolean isTextView42Visible = false;
 
+    private boolean isTextView23Visible = false;
+
     @SuppressLint("MissingInflatedId")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_spenden, container, false);
+        MobileAds.initialize(getActivity(), new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        RewardedAd.load(getActivity(), "ca-app-pub-3940256099942544/5224354917",
+                adRequest, new RewardedAdLoadCallback() {
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error.
+                        Log.d(TAG, loadAdError.toString());
+                        rewardedAd = null;
+                    }
+
+                    @Override
+                    public void onAdLoaded(@NonNull RewardedAd ad) {
+                        rewardedAd = ad;
+
+
+                        rewardedAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                            @Override
+                            public void onAdClicked() {
+                                // Called when a click is recorded for an ad.
+                                Log.d(TAG, "Ad was clicked.");
+                            }
+
+                            @Override
+                            public void onAdDismissedFullScreenContent() {
+                                // Called when ad is dismissed.
+                                // Set the ad reference to null so you don't show the ad a second time.
+                                Log.d(TAG, "Ad dismissed fullscreen content.");
+                                rewardedAd = null;
+                            }
+
+                            @Override
+                            public void onAdFailedToShowFullScreenContent(AdError adError) {
+                                // Called when ad fails to show.
+                                Log.e(TAG, "Ad failed to show fullscreen content.");
+                                rewardedAd = null;
+                            }
+
+                            @Override
+                            public void onAdImpression() {
+                                // Called when an impression is recorded for an ad.
+                                Log.d(TAG, "Ad recorded an impression.");
+                            }
+
+                            @Override
+                            public void onAdShowedFullScreenContent() {
+                                // Called when ad is shown.
+                                Log.d(TAG, "Ad showed fullscreen content.");
+                            }
+                        });
+
+                    }
+                });
+
         headlineTextView1 = rootView.findViewById(R.id.headlineTextView1);
         ueberschrift2 = rootView.findViewById(R.id.ueberschrift2);
         headlineTextView2 = rootView.findViewById(R.id.headlineTextView2);
@@ -60,6 +161,7 @@ public class SpendenFragment extends Fragment {
         textView22 = rootView.findViewById(R.id.textView22);
         textView41 = rootView.findViewById(R.id.textView41);
         textView42 = rootView.findViewById(R.id.textView42);
+        textView23 = rootView.findViewById(R.id.textView23);
 
         button6 = rootView.findViewById(R.id.button6);
         button5 = rootView.findViewById(R.id.button5);
@@ -74,6 +176,7 @@ public class SpendenFragment extends Fragment {
         textView41.setVisibility(View.GONE);
         button4.setVisibility(View.GONE);
         textView42.setVisibility(View.GONE);
+        textView23.setVisibility(View.GONE);
 
         headlineTextView2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,6 +212,7 @@ public class SpendenFragment extends Fragment {
                 isTextView41Visible = !isTextView41Visible;
                 updateVisibility(button5, isTextView41Visible);
                 updateVisibility(textView41, isTextView41Visible);
+                updateVisibility(textView23,isTextView23Visible);
                 updateConstraints();
             }
         });
@@ -120,6 +224,13 @@ public class SpendenFragment extends Fragment {
                 updateVisibility(button4, isTextView42Visible);
                 updateVisibility(textView42, isTextView42Visible);
                 updateConstraints();
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                click(v);
             }
         });
 
@@ -167,6 +278,35 @@ public class SpendenFragment extends Fragment {
         } else {
             button4.setVisibility(View.GONE);
             // Add code to adjust constraints to hide Button 4 if needed
+        }
+    }
+
+    // Rest of your methods...
+
+    public void click(View view) {
+        if (rewardedAd != null) {
+            Activity activityContext = getActivity();
+            rewardedAd.show(activityContext, new OnUserEarnedRewardListener() {
+                @Override
+                public void onUserEarnedReward(@NonNull RewardItem rewardItem) {
+                    // Handle the reward.
+                    Log.d(TAG, "The user earned the reward.");
+                    int rewardAmount = rewardItem.getAmount();
+                    String rewardType = rewardItem.getType();
+
+                    // Setze den Anfangstext
+                    textView23.setText("Dein Zukunft hält bereit: ");
+
+                    // Zeige eine zufällige Nachricht als Belohnung an
+                    String randomMessage = getRandomMessage();
+                    textView23.append(randomMessage);
+
+                    // Mache textView23 sichtbar, da der Reward angezeigt wurde
+                    textView23.setVisibility(View.VISIBLE);
+                }
+            });
+        } else {
+            // Handle the case when the rewarded ad is not loaded or failed to load.
         }
     }
 }

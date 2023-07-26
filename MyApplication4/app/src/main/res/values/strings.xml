@@ -116,5 +116,10 @@ Natürlich ist es mir wichtig, darauf hinzuweisen, dass du keinesfalls dein letz
 
 Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, dass du dich in keiner Weise finanziell belastest. Die Nutzung der App bleibt weiterhin komplett kostenlos und unbeschränkt, sodass du sie jederzeit ohne Bedenken genießen kannst.</string>
 
+    <string name="random_message_1">Herzlichen Dank für deine Unterstützung!</string>
+    <string name="random_message_2">Du bist großartig! Vielen Dank!</string>
+    <string name="random_message_3">Wir schätzen deine Spende sehr!</string>
+    <string name="random_message_4">Deine Hilfe macht einen Unterschied!</string>
+    <string name="random_message_5">Danke für deine Großzügigkeit!</string>
 
 </resources>
