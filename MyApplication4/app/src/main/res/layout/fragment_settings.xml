@@ -110,12 +110,12 @@
 
         <ImageButton
             android:id="@+id/languageNL"
-            android:foreground="@drawable/border"
             android:layout_width="82dp"
-            android:layout_marginTop="2dp"
             android:layout_height="42dp"
             android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
             android:background="@drawable/nl"
+            android:foreground="@drawable/border"
             android:text="NL"
             app:layout_constraintStart_toEndOf="@+id/languageUK"
             app:layout_constraintTop_toBottomOf="@+id/languageFR" />
@@ -166,6 +166,18 @@
             android:text="EN"
             app:layout_constraintStart_toEndOf="@+id/languageDE"
             app:layout_constraintTop_toBottomOf="@+id/Ueberschirft1" />
+
+        <ImageButton
+            android:id="@+id/languagePL"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/pl"
+            android:foreground="@drawable/border"
+            android:text="PL"
+            app:layout_constraintStart_toEndOf="@+id/languageNL"
+            app:layout_constraintTop_toBottomOf="@+id/languageIT" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
