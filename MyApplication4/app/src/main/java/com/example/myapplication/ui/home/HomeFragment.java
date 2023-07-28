@@ -184,6 +184,6 @@ public class HomeFragment extends Fragment {
     }
 
     private void showTime(String time) {
-        resultLabel4.setText("Uhrzeit: " + time);
+        resultLabel4.setText(time);
     }
 }

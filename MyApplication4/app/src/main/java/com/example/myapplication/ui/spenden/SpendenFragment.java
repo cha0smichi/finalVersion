@@ -97,6 +97,8 @@ public class SpendenFragment extends Fragment {
             }
         });
 
+
+
         // Load RewardedAd
         AdRequest adRequest = new AdRequest.Builder().build();
         RewardedAd.load(getActivity(), "ca-app-pub-3940256099942544/5224354917",

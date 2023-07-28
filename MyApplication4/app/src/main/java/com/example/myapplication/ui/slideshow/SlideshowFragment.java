@@ -108,8 +108,7 @@ public class SlideshowFragment extends Fragment {
                 toggleVisibility(textView12);
                 toggleVisibility(textView11); // Toggle visibility of textView11
                 toggleVisibility(linealEditText); // Toggle visibility of linealEditText
-                toggleImageVisibility(editText1); // Toggle visibility of editText1
-                toggleImageVisibility(editText2);
+
             }
         });
 
