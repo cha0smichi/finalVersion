@@ -13,7 +13,8 @@
 
         <TextView
             android:id="@+id/ueberschrfit"
-            android:layout_width="50mm"
+            android:layout_width="44mm"
+            android:layout_marginStart="4mm"
             android:layout_height="49dp"
             android:text="@string/h.Hefeberechnung"
             android:textSize="35dp"
