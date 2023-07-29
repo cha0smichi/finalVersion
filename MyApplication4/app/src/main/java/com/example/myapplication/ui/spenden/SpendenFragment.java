@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -83,6 +82,7 @@ public class SpendenFragment extends Fragment {
 
     private SharedPreferences sharedPreferences;
     private final String SP_KEY_IS_REWARD_EARNED = "is_reward_earned";
+    private final String SP_KEY_IS_TEXTVIEW23_VISIBLE = "is_textView23_visible";
 
     @SuppressLint("MissingInflatedId")
     @Nullable
@@ -96,8 +96,6 @@ public class SpendenFragment extends Fragment {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-
-
 
         // Load RewardedAd
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -193,7 +191,6 @@ public class SpendenFragment extends Fragment {
             }
         });
 
-
         headlineTextView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -219,6 +216,7 @@ public class SpendenFragment extends Fragment {
                 isTextView41Visible = !isTextView41Visible;
                 updateVisibility(button5, isTextView41Visible);
                 updateVisibility(textView41, isTextView41Visible);
+                isTextView23Visible = !isTextView23Visible;
                 updateVisibility(textView23, isTextView23Visible);
                 updateConstraints();
             }
@@ -245,8 +243,13 @@ public class SpendenFragment extends Fragment {
         sharedPreferences = getActivity().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         // Retrieve the saved reward status
         isRewardEarned = sharedPreferences.getBoolean(SP_KEY_IS_REWARD_EARNED, false);
+        // Retrieve the saved visibility status of textView23
+        isTextView23Visible = sharedPreferences.getBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, false);
+
         // Update the visibility of the reward
         updateRewardVisibility();
+        // Update the visibility of textView23 based on its saved state
+        updateVisibility(textView23, isTextView23Visible);
 
         return rootView;
     }
@@ -262,7 +265,7 @@ public class SpendenFragment extends Fragment {
 
     // Method to update constraints, if necessary
     private void updateConstraints() {
-        // Adjust the constraints based on visibility of the elements
+        // Adjust the constraints based on the visibility of the elements
 
         // For Button 6 and TextView20
         if (isTextView20Visible) {
@@ -294,12 +297,10 @@ public class SpendenFragment extends Fragment {
             // Add code to adjust constraints to hide Button 4 if needed
         }
 
-        // For TextView23
-        if (isTextView23Visible) {
-            textView23.setVisibility(View.VISIBLE);
-        } else {
-            textView23.setVisibility(View.GONE);
-        }
+        // Save the visibility state of textView23 in SharedPreferences
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(SP_KEY_IS_TEXTVIEW23_VISIBLE, isTextView23Visible);
+        editor.apply();
     }
 
     // Method to update the visibility of the reward TextView
@@ -322,12 +323,9 @@ public class SpendenFragment extends Fragment {
                     int rewardAmount = rewardItem.getAmount();
                     String rewardType = rewardItem.getType();
 
-                    // Set the initial text
-                    textView23.setText("Dein Zukunft hält bereit: ");
-
                     // Show a random message as a reward
                     String randomMessage = getRandomMessage();
-                    textView23.append(randomMessage);
+                    textView23.setText("Dein Zukunft hält bereit: " + randomMessage);
 
                     // Make textView23 visible since the reward has been shown
                     textView23.setVisibility(View.VISIBLE);
