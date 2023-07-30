@@ -76,7 +76,46 @@
     <string name="VorstellungMichi">Me gustaría combinar la alimentación y la tecnología para desarrollar productos innovadores y hacer avanzar la industria alimentaria. En los dos años siguientes, me permitieron trabajar en el departamento de calidad, con lo que adquirí un profundo conocimiento de los procesos y normas esenciales para la producción de alimentos seguros y de alta calidad. Tras mi aprendizaje, continué mi formación y me gradué como técnico en tecnología alimentaria. Ahora estoy a punto de iniciar un nuevo capítulo en mi carrera: pronto empezaré una licenciatura en bioquímica. Estoy muy ilusionado con este reto, ya que me permitirá ampliar y profundizar mis conocimientos para ahondar aún más en los aspectos científicos del desarrollo alimentario. Al margen de mi carrera profesional, el fútbol y el club de música son mis grandes pasiones. En el fútbol no sólo tengo la oportunidad de practicar deporte, sino también de trabajar en equipo y conseguir objetivos juntos. En mi tiempo libre, siempre estoy abierto a nuevas experiencias. Me gusta ir de excursión para disfrutar de la naturaleza y también probar suerte en la cocina para crear nuevas recetas.</string>
     <string name="VorstelungSebi">Me llamo Sebastian y me complace presentarme ante ustedes. Mi trayectoria comenzó con el bachillerato en la Escuela Técnica Superior, donde descubrí mi entusiasmo por la tecnología y la innovación. A continuación, cursé estudios de informática, que me introdujeron en el fascinante mundo de la programación y las tecnologías digitales. Durante mis estudios, desarrollé una pasión especial por el campo de la conducción autónoma. La idea de que los vehículos naveguen de forma autónoma con ayuda de inteligencia artificial y algoritmos avanzados me fascina enormemente. Es un campo que está en constante crecimiento y tendrá un impacto significativo en el futuro de la movilidad. Además de mi carrera profesional, soy un ávido ciclista de montaña. Explorar la naturaleza y experimentar la emoción de la conducción todoterreno me proporciona el tiempo de descanso que necesito del ajetreo y el bullicio de la vida cotidiana. Me ayuda a despejarme y a recargar las pilas para dedicarme a mis proyectos y retos.</string>
     <string name="h.sinn">Esta calculadora está diseñada para ayudarle a encontrar la cantidad óptima de levadura para su receta. Esto puede ser útil si, por ejemplo, encuentra una receta que desea hornear pero no está satisfecho con el tiempo de reposo indicado para la masa o si prefiere almacenar la masa en el frigorífico en lugar de a temperatura ambiente. Para ello, sume la harina utilizada en la receta (independientemente del tipo de harina) e introdúzcala en peso de harina. A continuación, piense en el tiempo que desea dejar reposar la masa: introduzca las horas y los minutos en el campo correspondiente. En el último campo, introduzca la temperatura a la que debe reposar la masa. Una vez introducidas las tres cosas, haga clic en -Calcular-. A continuación se calculan en gramos las cantidades necesarias de levadura fresca, levadura seca o masa madre.</string>
-
+    <string name="Code1">Hoy es tu día de suerte. Sigue adelante con valentía</string>.
+    <string name="Code2">Pronto experimentarás una alegría inesperada</string>.
+    <string name="Code3">Cree en ti mismo, porque eres más capaz de lo que crees</string>.
+    <string name="Code4">Las mejores cosas de la vida siguen en camino hacia ti.</string>
+    <string name="Code5">Ten paciencia, las cosas buenas llevan su tiempo.</string>
+    <string name="Code6">Tu creatividad te llevará a grandes logros.</string>
+    <string name="Code7">Hoy es un día lleno de sorpresas positivas.</string>
+    <string name="Code8">Una sonrisa puede hacer muchas cosas, pruébala.</string>
+    <string name="Code9">Las cosas buenas llegan a quien las espera.</string>
+    <string name="Code10">Tu persistencia dará sus frutos, ¡sigue así!</string>
+    <string name="Code11">Esté abierto a nuevas posibilidades, podrían sorprenderle.</string>
+    <string name="Code12">Tienes la capacidad de superar obstáculos.</string>
+    <string name="Code13">Las dificultades de hoy serán los recuerdos de mañana.</string>
+    <string name="Code14">Cree en ti mismo y los demás también lo harán.</string>
+    <string name="Code15">Tu intuición te guiará por el camino correcto.</string>
+    <string name="Code16">Fija objetivos claros y persíguelos con perseverancia.</string>
+    <string name="Code17">Pronto se te presentará una oportunidad especial.</string>
+    <string name="Code18">Busca los pequeños placeres de la vida.</string>
+    <string name="Code19">La suerte llega a los que piensan en positivo.</string>
+    <string name="Code20">Tu perseverancia te llevará a donde quieras.</string>
+    <string name="Code21">Deja atrás el pasado y céntrate en el futuro.</string>
+    <string name="Code22">Confía en tus instintos, ellos te guiarán.</string>
+    <string name="Code23">Te beneficiarás del apoyo de tus amigos.</string>
+    <string name="Code24">Hoy es un buen día para arriesgarse.</string>
+    <string name="Code25">Tienes el poder de hacer realidad tus sueños.</string>
+    <string name="Code26">Trata a los demás como quieres que te traten.</string>
+    <string name="Code27">Tu ingenio será admirado.</string>
+    <string name="Code28">Hoy es un día para estar agradecido por lo que tienes.</string>
+    <string name="Code29">La solución a tu problema ya está dentro de ti.</string>
+    <string name="Code30">Siempre hay una razón para sonreír, ¡encuentra la tuya!</string>
+    <string name="Code31">El mejor momento para empezar de cero es ahora.</string>
+    <string name="Code32">Cree en la magia de los comienzos, todo es posible.</string>
+    <string name="Code33">Tu talento pronto será reconocido.</string>
+    <string name="Code34">Alégrate de los pequeños progresos que hagas.</string>
+    <string name="Code35">Aferrate a tus sueños, merecen la pena.</string>
+    <string name="Code36">Tu bondad alegrará a los demás.</string>
+    <string name="Code37">El mundo está esperando a que lo descubras.</string>
+    <string name="Code38">Confía en tu capacidad para superar obstáculos.</string>
+    <string name="Code39">Eres único, muestra al mundo tu individualidad.</string>
+    <string name="Code40">Hoy es un día para ayudar a los demás.</string>
 
 
 </resources>
