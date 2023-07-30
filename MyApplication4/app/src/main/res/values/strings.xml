@@ -17,7 +17,7 @@
     <string name="f.nichts">\u25BCNichts überstürzen</string>
     <string name="f.orga">\u25BCOrganisiere dich vor dem Backen</string>
     <string name="f.ruck">Rückschläge gehören dazu - auch beim Brotbacken.&#10;Besonders am Anfang wirst du viele Fehler machen: versehentlich falsch verwendete Zutaten, falsche Mengenangaben oder eine klassische Übergare. &#10;Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. &#10;Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen. &#10;Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt.</string>
-    <string name="f.dingen">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
+    <string name="f.dingen" translatable="false">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
     <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. &#10;Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, &#10;mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. &#10;Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche. &#10;Falls dir ein Material fehlt, werde kreativ. &#10;So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein &#10;oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. </string>
     <string name="f.teiglinge">\u25BCWann sind mein Teig bzw. meine Teiglinge fertig  ?</string>
     <string name="f.daumen">Besonders am Anfang ist es schwierig,einTeiggefühl zu entwickeln. Wie lange muss ich meinen Teig noch Kneten oder wie lange muss mein Teig noch ruhen. Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks &#10;&#10; Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. &#10;Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. &#10;Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.&#10;&#10;Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. &#10;Drücke mit deinem Dauen eine leichte Kerbe in deinen Teig/Teigling. &#10;Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. &#10;Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. &#10;Für die optimale Gardauer, federt die kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."</string>
@@ -116,10 +116,49 @@ Natürlich ist es mir wichtig, darauf hinzuweisen, dass du keinesfalls dein letz
 
 Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, dass du dich in keiner Weise finanziell belastest. Die Nutzung der App bleibt weiterhin komplett kostenlos und unbeschränkt, sodass du sie jederzeit ohne Bedenken genießen kannst.</string>
 
-    <string name="random_message_1">Herzlichen Dank für deine Unterstützung!</string>
-    <string name="random_message_2">Du bist großartig! Vielen Dank!</string>
-    <string name="random_message_3">Wir schätzen deine Spende sehr!</string>
-    <string name="random_message_4">Deine Hilfe macht einen Unterschied!</string>
-    <string name="random_message_5">Danke für deine Großzügigkeit!</string>
+
 <string name="Spracheaendern">In welcher Sprache möchtest du die App anzeigen lassen</string>
+
+    <string name="Code1">Heute ist dein Glückstag. Gehe mutig voran!</string>
+    <string name="Code2">Du wirst bald eine unerwartete Freude erleben.</string>
+    <string name="Code3">Glaube an dich selbst, denn du bist fähiger, als du denkst.</string>
+    <string name="Code4">Die besten Dinge im Leben sind noch auf dem Weg zu dir.</string>
+    <string name="Code5">Sei geduldig, gute Dinge brauchen Zeit.</string>
+    <string name="Code6">Deine Kreativität wird dich zu großartigen Erfolgen führen.</string>
+    <string name="Code7">Heute ist ein Tag voller positiver Überraschungen.</string>
+    <string name="Code8">Ein Lächeln kann vieles bewirken, probiere es aus.</string>
+    <string name="Code9">Gute Dinge kommen zu denen, die darauf warten.</string>
+    <string name="Code10">Deine Hartnäckigkeit wird sich auszahlen, bleib dran!</string>
+    <string name="Code11">Sei offen für neue Möglichkeiten, sie könnten dich überraschen.</string>
+    <string name="Code12">Du hast die Fähigkeit, Hindernisse zu überwinden.</string>
+    <string name="Code13">Die heutigen Schwierigkeiten werden morgen Erinnerungen sein.</string>
+    <string name="Code14">Glaube an dich selbst, und andere werden es auch tun.</string>
+    <string name="Code15">Deine Intuition wird dich auf den richtigen Weg führen.</string>
+    <string name="Code16">Setze dir klare Ziele und verfolge sie beharrlich.</string>
+    <string name="Code17">Du wirst bald eine besondere Gelegenheit erhalten.</string>
+    <string name="Code18">Halte Ausschau nach den kleinen Freuden des Lebens.</string>
+    <string name="Code19">Glück kommt zu denen, die positiv denken.</string>
+    <string name="Code20">Deine Ausdauer wird dich ans Ziel bringen.</string>
+    <string name="Code21">Lass die Vergangenheit hinter dir und fokussiere dich auf die Zukunft.</string>
+    <string name="Code22">Vertraue auf deine Instinkte, sie werden dich leiten.</string>
+    <string name="Code23">Du wirst von der Unterstützung deiner Freunde profitieren.</string>
+    <string name="Code24">Heute ist ein guter Tag, um ein Risiko einzugehen.</string>
+    <string name="Code25">Du hast die Kraft, deine Träume wahr werden zu lassen.</string>
+    <string name="Code26">Behandle andere so, wie du behandelt werden möchtest.</string>
+    <string name="Code27">Dein Einfallsreichtum wird bewundert werden.</string>
+    <string name="Code28">Heute ist ein Tag, um dankbar zu sein für das, was du hast.</string>
+    <string name="Code29">Die Lösung für dein Problem liegt bereits in dir.</string>
+    <string name="Code30">Es gibt immer einen Grund zum Lächeln, finde deinen!</string>
+    <string name="Code31">Die beste Zeit für einen Neuanfang ist jetzt.</string>
+    <string name="Code32">Glaube an die Magie des Anfangs, alles ist möglich.</string>
+    <string name="Code33">Deine Talente werden bald Anerkennung finden.</string>
+    <string name="Code34">Freue dich über die kleinen Fortschritte, die du machst.</string>
+    <string name="Code35">Halte an deinen Träumen fest, sie sind es wert.</string>
+    <string name="Code36">Deine Freundlichkeit wird anderen Freude bereiten.</string>
+    <string name="Code37">Die Welt wartet darauf, von dir entdeckt zu werden.</string>
+    <string name="Code38">Vertraue auf deine Fähigkeit, Hindernisse zu überwinden.</string>
+    <string name="Code39">Du bist einzigartig, zeige der Welt deine Individualität.</string>
+    <string name="Code40">Heute ist ein Tag, um anderen Menschen zu helfen.</string>
+
+
 </resources>

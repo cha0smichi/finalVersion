@@ -29,8 +29,6 @@ import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class SpendenFragment extends Fragment {
@@ -58,19 +56,7 @@ public class SpendenFragment extends Fragment {
     private Button button5;
     private Button button4;
 
-    private String getRandomMessage() {
-        Random random = new Random();
-        int index = random.nextInt(randomMessages.size());
-        return randomMessages.get(index);
-    }
-
     // Data
-    private List<String> randomMessages = Arrays.asList(
-            "Du bist großartig! Vielen Dank!",
-            "Wir schätzen deine Spende sehr!",
-            "Deine Hilfe macht einen Unterschied!"
-    );
-
     private boolean isTextView17Visible = false;
     private boolean isTextView18Visible = false;
     private boolean isTextView20Visible = false;
@@ -179,7 +165,6 @@ public class SpendenFragment extends Fragment {
         textView41.setVisibility(View.GONE);
         button4.setVisibility(View.GONE);
         textView42.setVisibility(View.GONE);
-        textView23.setVisibility(View.GONE);
 
         // Set click listeners for expanding TextViews
         headlineTextView2.setOnClickListener(new View.OnClickListener() {
@@ -324,7 +309,7 @@ public class SpendenFragment extends Fragment {
                     String rewardType = rewardItem.getType();
 
                     // Show a random message as a reward
-                    String randomMessage = getRandomMessage();
+                    String randomMessage = getRandomMessageFromResources();
                     textView23.setText("Dein Zukunft hält bereit: " + randomMessage);
 
                     // Make textView23 visible since the reward has been shown
@@ -342,6 +327,59 @@ public class SpendenFragment extends Fragment {
         } else {
             // Handle the case when the rewarded ad is not loaded or failed to load.
         }
+    }
+
+    // Method to get a random message from string resources
+    private String getRandomMessageFromResources() {
+        // Array of resource IDs for the random messages
+        int[] messageIds = {
+                R.string.Code1,
+                R.string.Code2,
+                R.string.Code3,
+                R.string.Code4,
+                R.string.Code5,
+                R.string.Code6,
+                R.string.Code7,
+                R.string.Code8,
+                R.string.Code9,
+                R.string.Code10,
+                R.string.Code11,
+                R.string.Code12,
+                R.string.Code13,
+                R.string.Code14,
+                R.string.Code15,
+                R.string.Code16,
+                R.string.Code17,
+                R.string.Code18,
+                R.string.Code19,
+                R.string.Code20,
+                R.string.Code21,
+                R.string.Code22,
+                R.string.Code23,
+                R.string.Code24,
+                R.string.Code25,
+                R.string.Code26,
+                R.string.Code27,
+                R.string.Code28,
+                R.string.Code29,
+                R.string.Code30,
+                R.string.Code31,
+                R.string.Code32,
+                R.string.Code33,
+                R.string.Code34,
+                R.string.Code35,
+                R.string.Code36,
+                R.string.Code37,
+                R.string.Code38,
+                R.string.Code39,
+                R.string.Code40
+        };
+
+        // Generate a random index
+        int index = new Random().nextInt(messageIds.length);
+
+        // Get the random message from the resources
+        return getString(messageIds[index]);
     }
 
     // Rest of your methods...
