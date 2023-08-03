@@ -63,6 +63,8 @@ public class RechnerFragment extends Fragment {
         textView54 = rootView.findViewById(R.id.textView54);
         textView55 = rootView.findViewById(R.id.textView55);
 
+        textView16.setVisibility(View.GONE);
+
         // Hier kannst du die entsprechenden Aktionen für die Buttons oder andere Views hinzufügen
         // TextWatcher, um die Eingabe in EditText zu überwachen
         textView7.addTextChangedListener(new TextWatcher() {
@@ -174,7 +176,7 @@ public class RechnerFragment extends Fragment {
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Get the values from TextView20 and TextView27 as strings
+                // Get the values from TextView20 to TextView25 and TextView27 as strings
                 String valueTextView20 = textView20.getText().toString();
                 String valueTextView21 = textView21.getText().toString();
                 String valueTextView22 = textView22.getText().toString();
@@ -183,47 +185,46 @@ public class RechnerFragment extends Fragment {
                 String valueTextView25 = textView25.getText().toString();
                 String valueTextView27 = textView27.getText().toString();
 
-                try {
-                    // Convert the strings to doubles (for decimal numbers)
-                    double doubleValueTextView20 = parseDouble(valueTextView20);
-                    double doubleValueTextView21 = parseDouble(valueTextView21);
-                    double doubleValueTextView22 = parseDouble(valueTextView22);
-                    double doubleValueTextView23 = parseDouble(valueTextView23);
-                    double doubleValueTextView24 = parseDouble(valueTextView24);
-                    double doubleValueTextView25 = parseDouble(valueTextView25);
-                    double doubleValueTextView27 = parseDouble(valueTextView27);
+                // Convert the strings to doubles (for decimal numbers)
+                double doubleValueTextView20 = valueTextView20.isEmpty() ? 0.0 : parseDouble(valueTextView20);
+                double doubleValueTextView21 = valueTextView21.isEmpty() ? 0.0 : parseDouble(valueTextView21);
+                double doubleValueTextView22 = valueTextView22.isEmpty() ? 0.0 : parseDouble(valueTextView22);
+                double doubleValueTextView23 = valueTextView23.isEmpty() ? 0.0 : parseDouble(valueTextView23);
+                double doubleValueTextView24 = valueTextView24.isEmpty() ? 0.0 : parseDouble(valueTextView24);
+                double doubleValueTextView25 = valueTextView25.isEmpty() ? 0.0 : parseDouble(valueTextView25);
+                double doubleValueTextView27 = valueTextView27.isEmpty() ? 0.0 : parseDouble(valueTextView27);
 
-                    // Calculate the multiplication results with decimal precision
-                    double result1 = doubleValueTextView20 * doubleValueTextView27;
-                    double result2 = doubleValueTextView21 * doubleValueTextView27;
-                    double result3 = doubleValueTextView22 * doubleValueTextView27;
-                    double result4 = doubleValueTextView23 * doubleValueTextView27;
-                    double result5 = doubleValueTextView24 * doubleValueTextView27;
-                    double result6 = doubleValueTextView25 * doubleValueTextView27;
+                // Calculate the multiplication results with decimal precision
+                double result1 = doubleValueTextView20 * doubleValueTextView27;
+                double result2 = doubleValueTextView21 * doubleValueTextView27;
+                double result3 = doubleValueTextView22 * doubleValueTextView27;
+                double result4 = doubleValueTextView23 * doubleValueTextView27;
+                double result5 = doubleValueTextView24 * doubleValueTextView27;
+                double result6 = doubleValueTextView25 * doubleValueTextView27;
 
-                    // Set the results in TextViews with appropriate decimal formatting
-                    textView50.setText(String.format("%.2f", result1));
-                    textView51.setText(String.format("%.2f", result2));
-                    textView52.setText(String.format("%.2f", result3));
-                    textView53.setText(String.format("%.2f", result4));
-                    textView54.setText(String.format("%.2f", result5));
-                    textView55.setText(String.format("%.2f", result6));
-
-                } catch (NumberFormatException e) {
-                    // Handle the exception (e.g., display an error message or log the error)
-                    textView50.setText("Error: Invalid input");
-                    textView51.setText("Error: Invalid input");
-                    textView52.setText("Error: Invalid input");
-                    textView53.setText("Error: Invalid input");
-                    textView54.setText("Error: Invalid input");
-                    textView55.setText("Error: Invalid input");
-                }
+                // Set the results in TextViews with appropriate decimal formatting
+                textView50.setText(result1 == 0.0 ? "" : String.format("%.2f", result1));
+                textView51.setText(result2 == 0.0 ? "" : String.format("%.2f", result2));
+                textView52.setText(result3 == 0.0 ? "" : String.format("%.2f", result3));
+                textView53.setText(result4 == 0.0 ? "" : String.format("%.2f", result4));
+                textView54.setText(result5 == 0.0 ? "" : String.format("%.2f", result5));
+                textView55.setText(result6 == 0.0 ? "" : String.format("%.2f", result6));
             }
         });
 
         // ... your existing code ...
 
-        // Weitere Aktionen hinzufügen, wenn nötig...
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Toggle visibility of textView16 based on button3 click
+                if (textView16.getVisibility() == View.VISIBLE) {
+                    textView16.setVisibility(View.GONE);
+                } else {
+                    textView16.setVisibility(View.VISIBLE);
+                }
+            }
+        });// Weitere Aktionen hinzufügen, wenn nötig...
 
         return rootView; // Return the inflated View here
     }
