@@ -3,7 +3,9 @@ package com.example.myapplication.ui.spenden;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -224,6 +227,13 @@ public class SpendenFragment extends Fragment {
             }
         });
 
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWebsite();
+            }
+        });
+
         // Initialize SharedPreferences
         sharedPreferences = getActivity().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         // Retrieve the saved reward status
@@ -380,6 +390,25 @@ public class SpendenFragment extends Fragment {
 
         // Get the random message from the resources
         return getString(messageIds[index]);
+    }
+
+    // Method to open the website
+    private void openWebsite() {
+        // Add the URL of the website you want to open
+        String websiteUrl = "https://ko-fi.com/hefehelfer";
+
+        // Create an Intent to open the website
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(websiteUrl));
+
+        // Check if there is an app that can handle this Intent
+        if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
+            // If there is an app that can handle the Intent, start the activity
+            startActivity(intent);
+        } else {
+            // If there is no app that can handle the Intent, show an error message or handle it as needed
+            Log.e(TAG, "No app can handle this Intent.");
+            Toast.makeText(getActivity(), "No app can handle this action.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     // Rest of your methods...
