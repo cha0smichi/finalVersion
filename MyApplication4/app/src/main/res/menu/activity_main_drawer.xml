@@ -28,7 +28,7 @@
             android:title="@string/menu_spenden"/>
         <item
             android:id="@+id/nav_rechner"
-            android:icon="@drawable/bild7"
+            android:icon="@drawable/bild88"
             android:title="Rezeptrechner"/>
 
 
