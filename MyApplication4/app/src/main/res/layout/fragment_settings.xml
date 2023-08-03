@@ -179,6 +179,31 @@
             app:layout_constraintStart_toEndOf="@+id/languageNL"
             app:layout_constraintTop_toBottomOf="@+id/languageIT" />
 
+        <ImageButton
+            android:id="@+id/languageSA"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:background="@drawable/sa"
+            android:foreground="@drawable/border"
+            android:text="SA"
+            android:layout_marginTop="2dp"
+
+            android:layout_marginStart="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageRU" />
+
+        <ImageButton
+            android:id="@+id/languageCN"
+            android:layout_width="82dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:foreground="@drawable/border"
+            android:background="@drawable/cn"
+            android:text="UK"
+            app:layout_constraintStart_toEndOf="@+id/languageSA"
+            app:layout_constraintTop_toBottomOf="@+id/languageUK" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
