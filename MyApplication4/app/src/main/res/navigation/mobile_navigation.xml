@@ -40,4 +40,9 @@
         android:label="@string/menu_spenden"
         tools:layout="@layout/fragment_spenden"/>
 
+    <fragment
+        android:id="@+id/nav_rechner"
+        android:name="com.example.myapplication.ui.rechner.RechnerFragment"
+        android:label="Rezeptrechner"
+        tools:layout="@layout/fragment_rechner"/>
 </navigation>
