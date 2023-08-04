@@ -1,6 +1,9 @@
 package com.example.myapplication.ui.settings;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +19,8 @@ import androidx.fragment.app.Fragment;
 import com.example.myapplication.LanguageManager;
 import com.example.myapplication.R;
 
+import java.util.Locale;
+
 public class SettingsFragment extends Fragment {
 
     private ImageButton languageDE;
@@ -30,24 +35,28 @@ public class SettingsFragment extends Fragment {
         languageES = rootView.findViewById(R.id.languageES);
         languageHR = rootView.findViewById(R.id.languageHR);
 
-        LanguageManager languageManager = new LanguageManager(this.getActivity());
+        LanguageManager languageManager = new LanguageManager(getActivity());
 
         languageDE.setOnClickListener(view -> {
             languageManager.updateResource("de");
-            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
-            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+            restartActivity();
         });
         languageES.setOnClickListener(view -> {
             languageManager.updateResource("es");
-            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
-            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+            restartActivity();
         });
         languageHR.setOnClickListener(view -> {
             languageManager.updateResource("hr");
-            getParentFragmentManager().beginTransaction().detach(SettingsFragment.this).commit();
-            getParentFragmentManager().beginTransaction().attach(SettingsFragment.this).commit();
+            restartActivity();
         });
 
         return rootView;
+    }
+
+    // Helper method to restart the activity to apply language changes to all components
+    private void restartActivity() {
+        Intent intent = getActivity().getIntent();
+        getActivity().finish();
+        startActivity(intent);
     }
 }
