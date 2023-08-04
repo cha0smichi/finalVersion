@@ -320,7 +320,7 @@ public class SpendenFragment extends Fragment {
 
                     // Show a random message as a reward
                     String randomMessage = getRandomMessageFromResources();
-                    textView23.setText("Deine Glückskeksnachricht ist: " + randomMessage);
+                    textView23.setText("Deine Glückskeksnachricht ist:" + randomMessage);
 
                     // Make textView23 visible since the reward has been shown
                     textView23.setVisibility(View.VISIBLE);

@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Code1">Vandaag is je geluksdag. Ga moedig vooruit! </string>
+    <string name="Code2">Je zult snel een onverwachte vreugde ervaren</string>.
+    <string name="Code3">Geloof in jezelf, want je bent tot meer in staat dan je denkt.</string>
+    <string name="Code4">De beste dingen in het leven zijn nog onderweg naar jou.</string>
+    <string name="Code5">Wees geduldig, goede dingen hebben tijd nodig.</string>
+    <string name="Code6">Jouw creativiteit zal je tot grote prestaties leiden.</string>
+    <string name="Code7">Vandaag is een dag vol positieve verrassingen.</string>
+    <string name="Code8">Een glimlach kan veel doen, probeer het.</string>
+    <string name="Code9">Goede dingen komen toe aan wie erop wacht.</string>
+    <string name="Code10">Je doorzettingsvermogen zal lonen, blijf volhouden! </string>
+    <string name="Code11">Zet je open voor nieuwe mogelijkheden, ze kunnen je verrassen.</string>
+    <string name="Code12">Je hebt het vermogen om obstakels te overwinnen.</string>
+    <string name="Code13">De moeilijkheden van vandaag zijn de herinneringen van morgen.</string>
+    <string name="Code14">Geloof in jezelf en anderen zullen dat ook doen.</string>
+    <string name="Code15">Je intuïtie leidt je op het juiste pad.</string>
+    <string name="Code16">Stel duidelijke doelen en streef ze consequent na.</string>
+    <string name="Code17">Je krijgt binnenkort een bijzondere kans.</string>
+    <string name="Code18">Let op de kleine pleziertjes van het leven.</string>
+    <string name="Code19">Geluk komt toe aan hen die positief denken.</string>
+    <string name="Code20">Uw doorzettingsvermogen brengt je waar je heen wilt.</string>
+    <string name="Code21">Laat het verleden achter je en richt je op de toekomst.</string>
+    <string name="Code22">Trouw op je instinct, het zal je leiden.</string>
+    <string name="Code23">Je zult profiteren van de steun van je vrienden.</string>
+    <string name="Code24">Vandaag is een goede dag om een risico te nemen.</string>
+    <string name="Code25">Je hebt de kracht om je dromen waar te maken.</string>
+    <string name="Code26">Behandel anderen zoals je zelf behandeld wilt worden.</string>
+    <string name="Code27">Jouw vindingrijkheid zal bewonderd worden.</string>
+    <string name="Code28">Dag is een dag om dankbaar te zijn voor wat je hebt.</string>
+    <string name="Code29">De oplossing voor je probleem zit al in je.</string>
+    <string name="Code30">Er is altijd een reden om te glimlachen, vind de jouwe! </string>
+    <string name="Code31">De beste tijd voor een nieuwe start is nu.</string>
+    <string name="Code32">Geloof in de magie van het begin, alles is mogelijk.</string>
+    <string name="Code33">Je talenten zullen snel herkend worden.</string>
+    <string name="Code34">Vreugde in de kleine vooruitgang die je boekt.</string>
+    <string name="Code35">Houd vast aan je dromen, ze zijn het waard.</string>
+    <string name="Code36">Jouw vriendelijkheid zal anderen vreugde brengen.</string>
+    <string name="Code37">De wereld wacht om door jou ontdekt te worden.</string>
+    <string name="Code38">Vertrouw in je vermogen om obstakels te overwinnen.</string>
+    <string name="Code39">Jij bent uniek, laat de wereld jouw individualiteit zien.</string>
+    <string name="Code40">Dag is een dag om anderen te helpen.</string>
     <string name="app_name">Heferechner</string>
+    <string name="menu_slideshow">penis</string>
 </resources>

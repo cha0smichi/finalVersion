@@ -12,7 +12,7 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
-        resConfig("en,de,pl,fr,es,hr")
+        resConfig("en,de,pl,fr,es,hr,tr,nl,it,cn,ja,ru,uk,ar")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

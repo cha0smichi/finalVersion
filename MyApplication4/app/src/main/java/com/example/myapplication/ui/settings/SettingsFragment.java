@@ -1,16 +1,11 @@
 package com.example.myapplication.ui.settings;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,8 +13,6 @@ import androidx.fragment.app.Fragment;
 
 import com.example.myapplication.LanguageManager;
 import com.example.myapplication.R;
-
-import java.util.Locale;
 
 public class SettingsFragment extends Fragment {
 
@@ -75,36 +68,30 @@ public class SettingsFragment extends Fragment {
             languageManager.updateResource("fr");
             restartActivity();
         });
-
         languageIT.setOnClickListener(view -> {
             languageManager.updateResource("it");
             restartActivity();
         });
         languageJA.setOnClickListener(view -> {
-            languageManager.updateResource("ja ");
+            languageManager.updateResource("ja");
             restartActivity();
         });
-
         languageNL.setOnClickListener(view -> {
             languageManager.updateResource("nl");
             restartActivity();
         });
-
         languageRU.setOnClickListener(view -> {
             languageManager.updateResource("ru");
             restartActivity();
         });
-
         languageTR.setOnClickListener(view -> {
-            languageManager.updateResource("tu");
+            languageManager.updateResource("tr");
             restartActivity();
         });
-
         languageUK.setOnClickListener(view -> {
             languageManager.updateResource("uk");
             restartActivity();
         });
-
         languageEN.setOnClickListener(view -> {
             languageManager.updateResource("en");
             restartActivity();
@@ -113,21 +100,19 @@ public class SettingsFragment extends Fragment {
             languageManager.updateResource("pl");
             restartActivity();
         });
-
-
         languageSA.setOnClickListener(view -> {
-            languageManager.updateResource("sa");
+            languageManager.updateResource("ar");
             restartActivity();
         });
-
         languageCN.setOnClickListener(view -> {
             languageManager.updateResource("cn");
             restartActivity();
         });
+
         return rootView;
     }
 
-    // Helper method to restart the ac6tivity to apply language changes to all components
+    // Helper method to restart the activity to apply language changes to all components
     private void restartActivity() {
         Intent intent = getActivity().getIntent();
         getActivity().finish();

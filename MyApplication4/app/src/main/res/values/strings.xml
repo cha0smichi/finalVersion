@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">HefeHelfer</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="nav_header_title">Heferechner</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
 
     <string name="menu_home">Heferechner</string>
     <string name="menu_gallery">Tipps fürs Backen</string>
@@ -17,7 +17,7 @@
     <string name="f.nichts">\u25BCNichts überstürzen</string>
     <string name="f.orga">\u25BCOrganisiere dich vor dem Backen</string>
     <string name="f.ruck">Rückschläge gehören dazu - auch beim Brotbacken.&#10;Besonders am Anfang wirst du viele Fehler machen: versehentlich falsch verwendete Zutaten, falsche Mengenangaben oder eine klassische Übergare. &#10;Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. &#10;Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen. &#10;Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt.</string>
-    <string name="f.dingen" translatable="false">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
+    <string name="f.dingen">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
     <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. &#10;Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, &#10;mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. &#10;Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche. &#10;Falls dir ein Material fehlt, werde kreativ. &#10;So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein &#10;oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. </string>
     <string name="f.teiglinge">\u25BCWann sind mein Teig bzw. meine Teiglinge fertig  ?</string>
     <string name="f.daumen">Besonders am Anfang ist es schwierig,einTeiggefühl zu entwickeln. Wie lange muss ich meinen Teig noch Kneten oder wie lange muss mein Teig noch ruhen. Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks &#10;&#10; Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. &#10;Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. &#10;Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.&#10;&#10;Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. &#10;Drücke mit deinem Dauen eine leichte Kerbe in deinen Teig/Teigling. &#10;Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. &#10;Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. &#10;Für die optimale Gardauer, federt die kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."</string>
@@ -159,6 +159,18 @@ Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, 
     <string name="Code38">Vertraue auf deine Fähigkeit, Hindernisse zu überwinden.</string>
     <string name="Code39">Du bist einzigartig, zeige der Welt deine Individualität.</string>
     <string name="Code40">Heute ist ein Tag, um anderen Menschen zu helfen.</string>
+<string name="rechner.beschreibung">Willkommen zu unserem praktischen Rezept-Umrechner! Mit diesem intelligenten Tool kannst du die Mengen eines vorhandenen Rezepts spielend leicht umrechnen. Egal ob du ein Rezept für ein leckeres Brot gefunden hast, aber gerne gleich zwei davon backen möchtest, oder ob du einfach nur eine kleinere Portion zubereiten möchtest, dieser Rechner macht es dir einfach!
 
+Stell dir vor, du hast ein fantastisches Rezept gefunden, das dir das Wasser im Mund zusammenlaufen lässt. Aber dann kommt der Moment, in dem du feststellst, dass die Mengenangaben nur für eine Portion gedacht sind. Keine Sorge, mit unserem Rezept-Umrechner ist das ab jetzt kein Problem mehr!
 
+Du musst nicht länger alle Zutaten im Kopf doppelt rechnen oder mühsam umrechnen. Alles, was du tun musst, ist die Zutatenmengen in das Formular einzutragen und den gewünschten Multiplikator auszuwählen. Möchtest du die doppelte Menge zubereiten, einfach einen Multiplikator von 2 wählen. Und wenn du nur die Hälfte des Rezepts machen möchtest, entscheide dich für den Multiplikator 0.5.Natürlich darfst du auch andere Faktoren wählen</string>
+
+    <string name="rechner.Rezeptrechner">Rezeptrechner</string>
+    <string name="Zutat1">Zutat 1</string>
+    <string name="zutat2">Zutat 2</string>
+    <string name="zutat3">Zutat 3</string>
+    <string name="zutat4">Zutat 4</string>
+    <string name="zutat5">Zutat 5</string>
+    <string name="zutat6">Zutat 6</string>
+    <string name="Multiplikator">Multiplikator</string>
 </resources>

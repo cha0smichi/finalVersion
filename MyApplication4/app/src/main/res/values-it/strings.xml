@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Code1">Oggi è il vostro giorno fortunato. Andate avanti con coraggio!</string>
+    <string name="Code2">Presto sperimenterete una gioia inaspettata</string>.
+    <string name="Code3">Credete in voi stessi, perché siete più capaci di quanto pensiate</string>.
+    <string name="Code4">Le cose migliori della vita sono ancora in viaggio verso di voi.</string>
+    <string name="Code5">Siate pazienti, le cose belle richiedono tempo.</string>
+    <string name="Code6">La tua creatività ti condurrà a grandi risultati.</string>
+    <string name="Code7">Oggi è un giorno pieno di sorprese positive.</string>
+    <string name="Code8">Un sorriso può fare molte cose, provalo.</string>
+    <string name="Code9">Le cose belle arrivano a chi le aspetta.</string>
+    <string name="Code10">La vostra perseveranza sarà ripagata, continuate così!</string>
+    <string name="Code11">Apritevi a nuove possibilità, potrebbero sorprendervi.</string>
+    <string name="Code12">Hai la capacità di superare gli ostacoli.</string>
+    <string name="Code13">Le difficoltà di oggi saranno i ricordi di domani.</string>
+    <string name="Code14">Credete in voi stessi, e anche gli altri lo faranno.</string>
+    <string name="Code15">Il vostro intuito vi guiderà sulla strada giusta.</string>
+    <string name="Code16">Fissa obiettivi chiari e perseguili con costanza.</string>
+    <string name="Code17">Vi sarà presto data un opportunità speciale.</string>
+    <string name="Code18">Preoccupatevi dei piccoli piaceri della vita.</string>
+    <string name="Code19">La fortuna arriva a coloro che pensano positivamente.</string>
+    <string name="Code20">La tua perseveranza ti porterà dove vuoi andare.</string>
+    <string name="Code21">Lasciatevi alle spalle il passato e concentratevi sul futuro.</string>
+    <string name="Code22">Fidati del tuo istinto, ti guiderà.</string>
+    <string name="Code23">Beneficerete del sostegno dei vostri amici.</string>
+    <string name="Code24">Oggi è un buon giorno per correre un rischio.</string>
+    <string name="Code25">Hai il potere di realizzare i tuoi sogni.</string>
+    <string name="Code26">Tratta gli altri come vuoi essere trattato tu.</string>
+    <string name="Code27">La vostra ingegnosità sarà ammirata.</string>
+    <string name="Code28">Oggi è un giorno in cui essere grati per ciò che si ha.</string>
+    <string name="Code29">La soluzione al tuo problema è già dentro di te.</string>
+    <string name="Code30">Cè sempre un motivo per sorridere, trova il tuo!</string>
+    <string name="Code31">Il momento migliore per un nuovo inizio è adesso.</string>
+    <string name="Code32">Credere nella magia degli inizi, tutto è possibile.</string>
+    <string name="Code33">Il vostro talento sarà presto riconosciuto.</string>
+    <string name="Code34">Goditi dei piccoli progressi che fai.</string>
+    <string name="Code35">Aggrappati ai tuoi sogni, ne vale la pena.</string>
+    <string name="Code36">La vostra gentilezza porterà gioia agli altri.</string>
+    <string name="Code37">Il mondo sta aspettando di essere scoperto da voi.</string>
+    <string name="Code38">Fidate nella vostra capacità di superare gli ostacoli.</string>
+    <string name="Code39">Sei unico, mostra al mondo la tua individualità.</string>
+    <string name="Code40">Oggi è un giorno per aiutare gli altri.</string>
     <string name="app_name">Heferechner</string>
 </resources>

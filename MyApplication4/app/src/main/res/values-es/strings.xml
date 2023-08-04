@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calculadora de levadura</string>
+    <string name="app_name">Ayudante de levadura</string>
     <string name="menu_gallery">Consejos para hornear</string>
     <string name="menu_slideshow">"Pastelería navideña "</string>
     <string name="menu_fach">Términos técnicos</string>
