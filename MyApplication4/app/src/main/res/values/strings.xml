@@ -173,4 +173,5 @@ Du musst nicht länger alle Zutaten im Kopf doppelt rechnen oder mühsam umrechn
     <string name="zutat5">Zutat 5</string>
     <string name="zutat6">Zutat 6</string>
     <string name="Multiplikator">Multiplikator</string>
+    <string name="Rezeptrechner">Rezeptrechner</string>
 </resources>

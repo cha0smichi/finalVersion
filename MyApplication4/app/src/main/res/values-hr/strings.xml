@@ -140,6 +140,7 @@
     <string name="zutat5">Sastojak 5</string>
     <string name="zutat6">Sastojak 6</string>
     <string name="Multiplikator">Množitelj</string>
+    <string name="Rezeptrechner">Kalkulator recepata</string>
 
 
 </resources>

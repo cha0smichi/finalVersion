@@ -29,7 +29,7 @@
         <item
             android:id="@+id/nav_rechner"
             android:icon="@drawable/bild88"
-            android:title="Rezeptrechner"/>
+            android:title="@string/Rezeptrechner"/>
 
 
 

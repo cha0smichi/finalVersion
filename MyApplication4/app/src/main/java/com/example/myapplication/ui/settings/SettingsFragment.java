@@ -105,7 +105,7 @@ public class SettingsFragment extends Fragment {
             restartActivity();
         });
         languageCN.setOnClickListener(view -> {
-            languageManager.updateResource("cn");
+            languageManager.updateResource("zh");
             restartActivity();
         });
 
