@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Heferechner</string>
+    <string name="app_name">KvasacPomoćnik</string>
     <string name="menu_gallery">Savjeti za pečenje</string>
     <string name="menu_slideshow">Pečenje na odmoru</string>
     <string name="menu_fach">Terminima</string>
