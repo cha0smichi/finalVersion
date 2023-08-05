@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="menu_fach">Technische termen</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="f.lass">Neem de tijd</string>
+    <string name="f.immer">Steeds weer ziet u op het internet zogenaamde \"express recepten\" om brood te bakken. Deze beloven vers, zelfgebakken brood binnen een paar uur - meestal met behulp van zeer grote hoeveelheden gist. Dit kan natuurlijk handig zijn als u spontaan vers brood wilt bakken en niet veel tijd hebt. Wanneer u echter regelmatiger bakt en geïnteresseerd bent in een veel intensievere smaak, raad ik u aan om over te schakelen op de zogenaamde \"lang houdbare\" methode. Gebruik deze rekenmachine om de optimale hoeveelheid gist te berekenen voor uw favoriete recept.</string>
+    <string name="f.jedes">Elk brood verdient het om gebakken te worden!</string>
+    <string name="f.nichts">Niets overhaasten</string>
+    <string name="f.orga">Organiseer uzelf voor het bakken</string>
+    <string name="f.ruck">Tegenslagen horen erbij - ook bij het bakken van brood. Vooral in het begin zult u veel fouten maken: per ongeluk de verkeerde ingrediënten gebruiken, verkeerde hoeveelheden, of een klassieke overrijping. Vaak ziet het deeg eruit alsof het weggegooid moet worden. Mijn advies aan u: geef het deeg een kans en stop het in de oven. Misschien zal het resultaat u verrassen en ontdekt u een nieuw favoriet product.</string>
+    <string name="f.dingen">Zoals met zoveel dingen komt er geen meester uit de lucht vallen. Hier moet u ook rekening mee houden als u een recept kiest. Natuurlijk klinken de recepten met ongelofelijk veel ingrediënten waanzinnig spannend, maar ik raad u aan om in het begin met kleinere recepten te beginnen. Als u eenmaal gevoel hebt voor verschillende degen en u met basisrecepten kann werken, kunt u doorgaan naar meer geavanceerde recepten en anderen inspireren met uw kennis.</string>
+    <string name="f.vorfreude">Ondanks de begrijpelijke voorpret van het bakken, is een gestructureerde voorbereiding verstandig en noodzakelijk. Iedereen die ooit heeft gemerkt dat er een ingrediënt ontbreekt terwijl hij met de hand aan het kneden is en vervolgens heeft geprobeerd om het uit de kast te halen en het af te wegen met met deeg besmeurde handen weet waar ik het over heb. Dus voordat u begint met bakken, bedenk wat u nodig hebt en leg het netjes op je werkblad. Als u een materiaal mist, wees dan creatief. Een pastazeef met een keukendoek erin kan bijvoorbeeld een geweldig alternatief zijn voor een rijskorf. Ook kunt u een bloemenspuit gebruiken om stoom in de oven te creëren.</string>
     <string name="Code1">Vandaag is je geluksdag. Ga moedig vooruit! </string>
     <string name="Code2">Je zult snel een onverwachte vreugde ervaren</string>.
     <string name="Code3">Geloof in jezelf, want je bent tot meer in staat dan je denkt.</string>
@@ -40,6 +50,8 @@
     <string name="Code38">Vertrouw in je vermogen om obstakels te overwinnen.</string>
     <string name="Code39">Jij bent uniek, laat de wereld jouw individualiteit zien.</string>
     <string name="Code40">Dag is een dag om anderen te helpen.</string>
-    <string name="app_name">Heferechner</string>
+    <string name="app_name">GistHelper</string>
+    <string name="nav_header_title">Gist rekenmachine</string>
+    <string name="menu_home">Gist rekenmachine</string>
     <string name="menu_slideshow">penis</string>
 </resources>
