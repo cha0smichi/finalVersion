@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.rechner;
+package com.example.hefe.ui.rechner;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -12,10 +12,7 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.myapplication.R;
-
-import java.text.NumberFormat;
-import java.text.ParseException;
+import com.example.hefe.R;
 
 public class RechnerFragment extends Fragment {
 

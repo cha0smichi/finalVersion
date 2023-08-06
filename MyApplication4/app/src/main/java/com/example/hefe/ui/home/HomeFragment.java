@@ -1,11 +1,10 @@
-package com.example.myapplication.ui.home;
+package com.example.hefe.ui.home;
 
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.text.TextWatcher;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.myapplication.R;
+import com.example.hefe.R;
 
 import java.text.DecimalFormat;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.spenden;
+package com.example.hefe.ui.spenden;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -19,7 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.myapplication.R;
+import com.example.hefe.R;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;

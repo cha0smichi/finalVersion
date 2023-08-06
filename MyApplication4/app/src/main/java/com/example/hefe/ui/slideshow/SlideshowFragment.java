@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.slideshow;
+package com.example.hefe.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.text.DecimalFormat;
-import androidx.constraintlayout.widget.ConstraintLayout;
+
 import androidx.fragment.app.Fragment;
-import com.example.myapplication.R;
+import com.example.hefe.R;
 
 public class SlideshowFragment extends Fragment {
 

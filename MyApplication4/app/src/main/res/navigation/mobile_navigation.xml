@@ -7,42 +7,42 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:name="com.example.hefe.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:name="com.example.hefe.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+        android:name="com.example.hefe.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_fach"
-        android:name="com.example.myapplication.ui.fach.fach"
+        android:name="com.example.hefe.ui.fach.fach"
         android:label="@string/menu_fach"
         tools:layout="@layout/fragment_fach"/>
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.example.myapplication.ui.settings.SettingsFragment"
+        android:name="com.example.hefe.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings"/>
     <fragment
         android:id="@+id/nav_spenden"
-        android:name="com.example.myapplication.ui.spenden.SpendenFragment"
+        android:name="com.example.hefe.ui.spenden.SpendenFragment"
         android:label="@string/menu_spenden"
         tools:layout="@layout/fragment_spenden"/>
 
     <fragment
         android:id="@+id/nav_rechner"
-        android:name="com.example.myapplication.ui.rechner.RechnerFragment"
+        android:name="com.example.hefe.ui.rechner.RechnerFragment"
         android:label="Rezeptrechner"
         tools:layout="@layout/fragment_rechner"/>
 </navigation>
