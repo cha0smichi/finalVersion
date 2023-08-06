@@ -186,13 +186,13 @@ public class RechnerFragment extends Fragment {
                 String valueTextView27 = textView27.getText().toString();
 
                 // Convert the strings to doubles (for decimal numbers)
-                double doubleValueTextView20 = valueTextView20.isEmpty() ? 0.0 : parseDouble(valueTextView20);
-                double doubleValueTextView21 = valueTextView21.isEmpty() ? 0.0 : parseDouble(valueTextView21);
-                double doubleValueTextView22 = valueTextView22.isEmpty() ? 0.0 : parseDouble(valueTextView22);
-                double doubleValueTextView23 = valueTextView23.isEmpty() ? 0.0 : parseDouble(valueTextView23);
-                double doubleValueTextView24 = valueTextView24.isEmpty() ? 0.0 : parseDouble(valueTextView24);
-                double doubleValueTextView25 = valueTextView25.isEmpty() ? 0.0 : parseDouble(valueTextView25);
-                double doubleValueTextView27 = valueTextView27.isEmpty() ? 0.0 : parseDouble(valueTextView27);
+                double doubleValueTextView20 = valueTextView20.isEmpty() ? 0.0 : Double.parseDouble(valueTextView20);
+                double doubleValueTextView21 = valueTextView21.isEmpty() ? 0.0 : Double.parseDouble(valueTextView21);
+                double doubleValueTextView22 = valueTextView22.isEmpty() ? 0.0 : Double.parseDouble(valueTextView22);
+                double doubleValueTextView23 = valueTextView23.isEmpty() ? 0.0 : Double.parseDouble(valueTextView23);
+                double doubleValueTextView24 = valueTextView24.isEmpty() ? 0.0 : Double.parseDouble(valueTextView24);
+                double doubleValueTextView25 = valueTextView25.isEmpty() ? 0.0 : Double.parseDouble(valueTextView25);
+                double doubleValueTextView27 = valueTextView27.isEmpty() ? 0.0 : Double.parseDouble(valueTextView27);
 
                 // Calculate the multiplication results with decimal precision
                 double result1 = doubleValueTextView20 * doubleValueTextView27;
@@ -212,6 +212,7 @@ public class RechnerFragment extends Fragment {
             }
         });
 
+
         // ... your existing code ...
 
         button3.setOnClickListener(new View.OnClickListener() {
@@ -229,14 +230,6 @@ public class RechnerFragment extends Fragment {
         return rootView; // Return the inflated View here
     }
 
-    // Custom parseDouble method to handle both comma and dot as decimal separators
-    private double parseDouble(String str) {
-        try {
-            NumberFormat numberFormat = NumberFormat.getInstance();
-            return numberFormat.parse(str).doubleValue();
-        } catch (ParseException e) {
-            e.printStackTrace();
-            return Double.NaN;
-        }
-    }
+
+
 }

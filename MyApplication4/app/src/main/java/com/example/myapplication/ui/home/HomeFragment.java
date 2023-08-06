@@ -5,6 +5,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.text.TextWatcher;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,6 +31,8 @@ public class HomeFragment extends Fragment {
     private TextView resultLabel4;
     private double resultLabel5 = 0.0; // New variable of type double for resultlabel5
     private EditText Celsius;
+    private EditText editText1;
+    private EditText editText3;
     private EditText editText4; // New EditText for the sum
     private EditText editText6; // New EditText for the sum
     private TextView textView16;
@@ -52,6 +55,8 @@ public class HomeFragment extends Fragment {
         editText6 = rootView.findViewById(R.id.editText6); // Initialize the new EditText
         textView16 = rootView.findViewById(R.id.textView16);
         button3 = rootView.findViewById(R.id.button3);
+       numberField.addTextChangedListener(decimalTextWatcher);
+       Celsius.addTextChangedListener(decimalTextWatcher);
 
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +80,33 @@ public class HomeFragment extends Fragment {
         return rootView;
     }
 
+    private TextWatcher decimalTextWatcher = new TextWatcher() {
+        private boolean isEditing;
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if (isEditing) return;
+            isEditing = true;
+
+            String originalText = s.toString();
+            String formattedText = originalText.replace(',', '.');
+
+            if (!formattedText.equals(originalText)) {
+                // Wenn das Format geändert wurde, setze den neuen formatierten Text zurück
+                s.replace(0, s.length(), formattedText);
+            }
+
+            isEditing = false;
+        }
+    };
     private void calculateResultLabel5() {
         String input1 = editText4.getText().toString().trim();
         String input2 = editText6.getText().toString().trim();
