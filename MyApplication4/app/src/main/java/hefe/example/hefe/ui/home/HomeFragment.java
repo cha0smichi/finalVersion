@@ -1,4 +1,4 @@
-package com.example.hefe.ui.home;
+package hefe.example.hefe.ui.home;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.hefe.R;
+import hefe.example.hefe.R;
 
 import java.text.DecimalFormat;
 import java.util.Calendar;

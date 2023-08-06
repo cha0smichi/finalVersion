@@ -1,4 +1,4 @@
-package com.example.hefe;
+package hefe.example.hefe;
 
 import android.content.Context;
 

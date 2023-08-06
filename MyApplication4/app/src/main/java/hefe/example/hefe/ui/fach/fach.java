@@ -1,4 +1,4 @@
-package com.example.hefe.ui.fach;
+package hefe.example.hefe.ui.fach;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.hefe.R;
+import hefe.example.hefe.R;
 
 
 public class fach extends Fragment {

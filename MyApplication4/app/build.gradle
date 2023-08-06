@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.hefe'
+    namespace 'hefe.example.hefe'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.hefe"
+        applicationId "hefe.example.hefe"
         minSdk 24
         targetSdk 33
         versionCode 2

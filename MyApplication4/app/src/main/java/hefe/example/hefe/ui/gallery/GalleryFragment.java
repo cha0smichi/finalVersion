@@ -1,4 +1,4 @@
-package com.example.hefe.ui.gallery;
+package hefe.example.hefe.ui.gallery;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.fragment.app.Fragment;
 
-import com.example.hefe.R;
+import hefe.example.hefe.R;
 
 public class GalleryFragment extends Fragment {
 
