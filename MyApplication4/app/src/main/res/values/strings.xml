@@ -1,177 +1,293 @@
-<resources>
+<?xml version="1.0"?>
+
+    <resources>
+
     <string name="app_name">HefeHelfer</string>
+
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
     <string name="nav_header_title">Heferechner</string>
+
     <string name="nav_header_desc" translatable="false">Navigation header</string>
 
     <string name="menu_home">Heferechner</string>
+
     <string name="menu_gallery">Tipps fürs Backen</string>
+
     <string name="menu_slideshow">Backen im Urlaub</string>
+
     <string name="menu_fach">Fachbegriffe</string>
+
     <string name="menu_settings">Einstellungen</string>
+
     <string name="menu_spenden">Unterstütze uns!</string>
+
     <string name="f.lass">\u25BCLass dir Zeit</string>
-    <string name="f.immer">Immer wieder sieht man sogenannte „Express Rezepte“ fürs Brotbacken im Internet. &#10;Diese versprechen ein frisches, selbstgemachtes Brot innerhalb weniger Stunden - meist mithilfe von sehr großen Mengen Hefe. &#10;Das kann natürlich nützlich sein, wenn man spontan frisches Brot backen will und dafür kaum Zeit hat. &#10;Sollte man jedoch regelmäßiger backen und Interesse an einem deutlich intensiveren Geschmack haben, rate ich dazu, auf die sogenannte „Langzeitführung“ umzusteigen. &#10;Für die optimale Hefemengen-Berechnung deines Lieblingsrezeptes dient dir dieser Rechner.</string>
-    <string name="f.jedes">\u25BCJedes Brot verdient es,&#10;ausgebacken zu werden!</string>
+
+    <string name="f.immer">Immer wieder sieht man sogenannte „Express Rezepte“ fürs Brotbacken im Internet.\nDiese versprechen ein frisches, selbstgemachtes Brot innerhalb weniger Stunden - meist mithilfe von sehr großen Mengen Hefe. Das kann natürlich nützlich sein, wenn man spontan frisches Brot backen will und dafür kaum Zeit hat. \nSollte man jedoch regelmäßiger backen und Interesse an einem deutlich intensiveren Geschmack haben, rate ich dazu, auf die sogenannte „Langzeitführung“ umzusteigen. \nFür die optimale Hefemengen-Berechnung deines Lieblingsrezeptes dient dir dieser Rechner.</string>
+
+    <string name="f.jedes">\u25BCJedes Brot verdient es, ausgebacken zu werden!</string>
+
     <string name="f.nichts">\u25BCNichts überstürzen</string>
+
     <string name="f.orga">\u25BCOrganisiere dich vor dem Backen</string>
-    <string name="f.ruck">Rückschläge gehören dazu - auch beim Brotbacken.&#10;Besonders am Anfang wirst du viele Fehler machen: versehentlich falsch verwendete Zutaten, falsche Mengenangaben oder eine klassische Übergare. &#10;Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. &#10;Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen. &#10;Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt.</string>
-    <string name="f.dingen">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. &#10;Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. &#10;Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. &#10;Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, &#10;kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
-    <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. &#10;Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, &#10;mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. &#10;Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche. &#10;Falls dir ein Material fehlt, werde kreativ. &#10;So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein &#10;oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. </string>
-    <string name="f.teiglinge">\u25BCWann sind mein Teig bzw. meine Teiglinge fertig  ?</string>
-    <string name="f.daumen">Besonders am Anfang ist es schwierig,einTeiggefühl zu entwickeln. Wie lange muss ich meinen Teig noch Kneten oder wie lange muss mein Teig noch ruhen. Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks &#10;&#10; Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. &#10;Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. &#10;Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.&#10;&#10;Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. &#10;Drücke mit deinem Dauen eine leichte Kerbe in deinen Teig/Teigling. &#10;Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. &#10;Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. &#10;Für die optimale Gardauer, federt die kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."</string>
+
+    <string name="f.ruck">Rückschläge gehören dazu - auch beim Brotbacken.\n Besonders am Anfang wirst du viele Fehler machen: \n versehentlich falsch verwendete Zutaten, fehlerhafte Mengenangaben oder eine klassische Übergare. \n Oftmals sieht der Teig danach aus, als müsste man ihn entsorgen. Mein Rat an dich: Gib dem Teig eine Chance und schieb ihn in den Ofen.\n \n Vielleicht überrascht dich das Ergebnis und du entdeckst ein neues Lieblingsprodukt.</string>
+
+    <string name="f.dingen">Wie bei so vielen Dingen, ist noch kein Meister vom Himmel gefallen. \n Das sollte dir auch bei der Auswahl des Rezeptes bewusst sein. Natürlich hören sich die Rezepte mit unfassbar vielen Zutaten wahnsinnig spannend an, trotzdem empfehle ich dir, zu Beginn mit kleineren Rezepten anzufangen. \n Sobald du ein Gefühl für verschiedene Teige hast und deine Basic-Rezepte funktionieren, kannst du zu fortgeschritteneren Rezepten übergehen und andere mit deinem Wissen begeistern. </string>
+
+    <string name="f.vorfreude">Trotz nachvollziehbarer Vorfreude aufs Backen, ist eine strukturierte Vorbereitung sinnvoll und notwendig. \n Jeder, dem schon einmal während des Knetvorgangs mit der Hand aufgefallen ist, dass eine Zutat fehlt und diese anschließend versucht hat, mit teigverschmierten Händen aus dem Schrank zu holen und abzuwiegen, weiß wovon ich spreche. \n Überlege dir deshalb vor dem Backen was du brauchst und richte es dir ordentlich auf deine Arbeitsfläche.\n Falls dir ein Material fehlt, werde kreativ. \n So kann zum Beispiel ein Nudelsieb mit eingelegtem Küchentuch eine super Alternative zu einem Gärkörbchen sein oder du nutzt eine Blumenspritze, um Schwaden im Ofen zu erzeugen. </string>
+
+    <string name="f.teiglinge">\u25BCWann sind mein Teig bzw. meine Teiglinge fertig ?</string>
+
+    <string name="f.daumen">Besonders am Anfang ist es schwierig,einTeiggefühl zu entwickeln.\n Wie lange muss ich meinen Teig noch kneten oder wie lange muss mein Teig noch ruhen. \n Das sind 2 Fragen welche ich mir oft am Anfang gestellt habe. Dafür gibt es einfache Tricks: \n\n Knetzeit: Hierfür kannst du ein Stücken vom Teig nehmen, welches etwa Walnussgroß ist und ihn zwischen deinen Händen halten. Ziehe das Teigstücken mit beiden Händen vorsichtig und gefühlvoll auseinander, sodass sich eine Dünne Teigschicht bildet. Diese Teigschicht, sollte so dünn gezogen werden, das Licht hindurchscheinen kann. Reißt diese dünne Teigschicht, ist der Teig nocht nicht genug geknetet.\n \n Gardauer: Für dieses „Problem“ gibt es die sogenannte Daumenprobe. \n Drücke mit deinem Daumen eine leichte Kerbe in deinen Teig/Teigling. \n Federt die Kerbe direkt zurück, ist der Teig nocht nicht ganz bereit. \n Federt die Kerbe gar nicht in die Ursprungsform zurück, ist der Teig zu lange in der Gare. \n Für die optimale Gardauer, federt die Kerbe leicht zurück, jedoch nicht in die 100%ige Ausgangform."</string>
+
     <string name="s.einwaagen">\u25BCKeine Waage für die Einwaagen </string>
+
     <string name="s.mehl">Mehl ohne Waage auswiegen</string>
+
     <string name="s.Mehlvolumen">Mehlvolumen</string>
+
     <string name="s.Durchmesser">Durchmesser</string>
+
     <string name="s.Gramm">Gramm</string>
+
     <string name="s.Hefe">Hefe ohne Waage abwiegen</string>
+
     <string name="s.Knetmaschine">\u25BCKneten ohne Knetmaschine</string>
+
     <string name="s.Arbeitsfläche">Kneten mit Arbeitsfläche</string>
+
     <string name="s.ohneArbeitsflaeche">Kneten ohne Arbeitsfläche</string>
+
     <string name="s.Überschrift">Backen im Urlaub</string>
-    <string name="s.BBQ">Wer kennt es nicht: Man fährt in den Urlaub und will passend zum BBQ ein Fladenbrot machen. &#10;Leider besitzt eure Ferienwohnung weder eine Waage noch eine Knetmaschine. &#10;Für diese Probleme gibt es verschiedene Lösungen. </string>
+
+    <string name="s.BBQ">Wer kennt es nicht: Man fährt in den Urlaub und will passend zum BBQ ein Fladenbrot machen. Leider besitzt eure Ferienwohnung weder eine Waage noch eine Knetmaschine. Für diese Probleme gibt es verschiedene Lösungen. </string>
+
     <string name="s.go">Go</string>
-    <string name="s.mehlwaage">Um das Mehl ohne Waage abzumessen, gibt es eine einfache Lösung: &#10;Du verwendest die Schüttdichte von Mehl. &#10;Die Schüttdichte gibt an, wie schwer eine Substanz auf ein bestimmtes Volumen gesehen ist. Wasser, als Beispiel, besitzt eine Schüttdichte von 1. Das bedeutet, dass 1000 ml Wasser 1 kg wiegt. &#10;Mehl hingegen ist leichter als Wasser. So wiegt 1000 ml Mehl nur ca. 500-600g. Nun kannst du ein Behältnis – am besten mit Eichstrich – verwenden, um das Mehl abzuwiegen. &#10;Trage die ml Zahl in den Rechner ein und dir wird die Gramm Anzahl berechnet.</string>
-    <string name="s.Hefewaage">Um eine Hefemenge ohne Waage abzumessen, kannst du deine Frischhefe einfach zu einer Kugel formen. &#10;Je nach Durchmesser der Hefekugel, kann das Gewicht der Hefe geschätzt werden. &#10;Einfach mit dem Lineal auf dem Bildschirm die Größe (millimeter) der Kugel abmessen und den Wert in den Rechner eingeben. &#10;Die Hefemenge wird dir in Gramm wiedergegeben. Dies sind natürlich keine absolut genauen Werte, &#10;aber für den Urlaub und deine spontane Backlust wird es reichen.</string>
-    <string name="s.Schüssel">Falls dir kein Platz zum Kneten zur Verfügung steht, nutzt du eine Schüssel und einen Kochlöffel. &#10;Diese Variante basiert auf dem in der Industrie eingesetzten Hubkneter. &#10;Hierfür mischst du alle Zutaten in einer Schüssel und vermengst sie mit der Hand bzw. dem Kochlöffel. &#10;Im zweiten Schritt setzt du an einem Ende der Schüssel dein Rührgerät an und ziehst damit den Teig bis zur Mitte der Schüssel. Danach drehst du die Schüssel um ein paar Zentimeter, setzt wieder am Rand an und ziehst den Teig bis zur Mitte der Schüssel. &#10;Diesen Vorgang wiederholst du so lange, bis sich dein Teig gut dehnen lässt, ohne dabei zu zerreißen</string>
-    <string name="s.Arbeitsflaeche">Hast du eine Arbeitsfläche zum Kneten, kannst du auf diese Variante zurückgreifen. &#10;Dort mischst du ebenfalls zu Beginn alle Zutaten. Hierfür kannst du auch eine Schüssel oder direkt deine Arbeitsfläche nutzen. &#10;Dieses Verfahren basiert auf der Grundlage eines Sprialkneters, bei dem eine Kräfte-Einwirkung von oben nach unten entsteht. &#10;Dafür greifst du mit der Hand unter den Teig und faltest ihn über sich selbst. Anschließend wird das gefaltete Teigstück von oben nach unten in den Teig gedrückt. &#10;Nach diesem Schritt, wird die Schüssel ein paar Zentimeter gedreht und der Knetprozess beginnt von vorn: Du greifst unter den Teig, faltest ihn über sich selbst und drückst das gefaltete Stück in den restlichen Teig hinein</string>
-    <string name="s.Kneter">Um einen Teig ohne Kneter herzustellen, kann man sich an den Wirkungsweißen der Industriekneter orientieren.&#10;Für den Urlaub eignen sich zwei Verfahren, die sich dadurch unterscheiden, ob dir eine Arbeitsplatte zum Kneten zur Verfügung steht oder nicht.&#10;Bei beiden Methoden ist zu beachten, dass die Knetzeit länger als mit einer Maschine ist. Um ungefähr abzuschätzen, wann dein Teig lang genug geknetet wurde, gibt es die sogenannte Fensterprobe.&#10;(siehe -Tipps- Wann sind mein Teig bzw. meine Teiglinge fertig?)</string>
+
+    <string name="s.mehlwaage">Um das Mehl ohne Waage abzumessen, gibt es eine einfache Lösung: \n Du verwendest die Schüttdichte von Mehl. Die Schüttdichte gibt an, wie schwer eine Substanz auf ein bestimmtes Volumen gesehen ist. Wasser, als Beispiel, besitzt eine Schüttdichte von 1. Das bedeutet, dass 1000 ml Wasser 1 kg wiegt. \n Mehl hingegen ist leichter als Wasser. So wiegt 1000 ml Mehl nur ca. 500-600g. Nun kannst du ein Behältnis – am besten mit Eichstrich – verwenden, um das Mehl abzuwiegen. \n Trage die ml Zahl in den Rechner ein und dir wird die Gramm Anzahl berechnet.</string>
+
+    <string name="s.Hefewaage">Um eine Hefemenge ohne Waage abzumessen, kannst du deine Frischhefe einfach zu einer Kugel formen. \n Je nach Durchmesser der Hefekugel, kann das Gewicht der Hefe geschätzt werden. \n Einfach mit dem Lineal auf dem Bildschirm die Größe (millimeter) der Kugel abmessen und den Wert in den Rechner eingeben. Die Hefemenge wird dir in Gramm wiedergegeben.\n Dies sind natürlich keine absolut genauen Werte, aber für den Urlaub und deine spontane Backlust wird es reichen.</string>
+
+    <string name="s.Schüssel">Falls dir kein Platz zum Kneten zur Verfügung steht, nutzt du eine Schüssel und einen Kochlöffel. Diese Variante basiert auf dem in der Industrie eingesetzten Hubkneter. \n Hierfür mischst du alle Zutaten in einer Schüssel und vermengst sie mit der Hand bzw. dem Kochlöffel. \n Im zweiten Schritt setzt du an einem Ende der Schüssel dein Rührgerät an und ziehst damit den Teig bis zur Mitte der Schüssel. Danach drehst du die Schüssel um ein paar Zentimeter, setzt wieder am Rand an und ziehst den Teig bis zur Mitte der Schüssel.\n Diesen Vorgang wiederholst du so lange, bis sich dein Teig gut dehnen lässt, ohne dabei zu zerreißen</string>
+
+    <string name="s.Arbeitsflaeche">Hast du eine Arbeitsfläche zum Kneten, kannst du auf diese Variante zurückgreifen.\n Dort mischst du ebenfalls zu Beginn alle Zutaten. Hierfür kannst du auch eine Schüssel oder direkt deine Arbeitsfläche nutzen. Dieses Verfahren basiert auf der Grundlage eines Sprialkneters, bei dem eine Kräfte-Einwirkung von oben nach unten entsteht. \n Dafür greifst du mit der Hand unter den Teig und faltest ihn über sich selbst. Anschließend wird das gefaltete Teigstück von oben nach unten in den Teig gedrückt.\n Nach diesem Schritt, wird die Schüssel ein paar Zentimeter gedreht und der Knetprozess beginnt von vorn: Du greifst unter den Teig, faltest ihn über sich selbst und drückst das gefaltete Stück in den restlichen Teig hinein</string>
+
+    <string name="s.Kneter">Um einen Teig ohne Kneter herzustellen, kann man sich an den Wirkungsweißen der Industriekneter orientieren.\n Für den Urlaub eignen sich zwei Verfahren, die sich dadurch unterscheiden, ob dir eine Arbeitsplatte zum Kneten zur Verfügung steht oder nicht.\n Bei beiden Methoden ist zu beachten, dass die Knetzeit länger als mit der Knetmaschine ist. Um ungefähr abzuschätzen, wann dein Teig lang genug geknetet wurde, gibt es die sogenannte Fensterprobe. (siehe -Tipps- Wann sind mein Teig bzw. meine Teiglinge fertig?)</string>
+
     <string name="h.Hefeberechnung">Hefeberechnung</string>
+
     <string name="h.Mehlgewicht">Mehlgewicht</string>
+
     <string name="h.inGramm">in Gramm</string>
+
     <string name="h.Teigruhe">Teigruhe(h:min)</string>
+
     <string name="h.h">h</string>
+
     <string name="h.min">min</string>
+
     <string name="h.Temperatur">Temperatur in °C</string>
+
     <string name="h.C">in °C</string>
+
     <string name="h.berechnen">Berechnen</string>
+
     <string name="h.frischhefe">Frischhefe in g</string>
+
     <string name="h.oder">oder</string>
+
     <string name="h.Trockenhefe">Trockenhefe in g</string>
+
     <string name="h.Sauerteihg">Sauerteig in g</string>
+
     <string name="h.Teigruhebeendet">Teigruhe ist beendet um:</string>
+
     <string name="e.Uschrift">Einstellungen</string>
+
     <string name="Frage">?</string>
+
     <string name="w.Fachbegriffe">Fachbegriffe</string>
-   <string name="w.Woerter">Besonders am Anfang werden dir viele Fremdwörter begegnen, die du noch nicht kennst. Um dir den Start zu erleichtern, liste ich dir die für mich wichtigsten Fachbegriffe auf und erkläre sie dir.</string>
+
+    <string name="w.Woerter">Besonders am Anfang werden dir viele Fremdwörter begegnen, die du noch nicht kennst. Um dir den Start zu erleichtern, liste ich dir die für mich wichtigsten Fachbegriffe auf und erkläre sie dir.</string>
+
     <string name="w.Stockgare">Stockgare:</string>
+
     <string name="w.vordemformen">Die Ruhezeit des Teiges nach dem Kneten, aber vor dem Formen.</string>
+
     <string name="w.Stueckgare">Stückgare:</string>
+
     <string name="w.vordembacken">Die Ruhezeit nach dem Formen des Teiges aber noch vor dem Backen.</string>
+
     <string name="w.Schwaden">Schwaden:</string>
+
     <string name="w.krumenbild">Als Schwaden bezeichnet man den Wasserdampf, der dem Backprozess zugeführt wird. Er sorgt für ein besseres Krustenbild.</string>
+
     <string name="w.Teigausbeute">Teigausbeute:</string>
-    <string name="w.TAerklaert">Die Teigausbeute (TA) gibt an, wie viel Kilogramm Wasser auf 100 Kilogramm Mehl verwendet wird. Je  höher die TA, desto mehr Wasser wird verwendet. &#10;Aber bitte beacht: Je höher die TA, umso schwieriger ist die Verarbeitung. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Teigausbeute von 160.</string>
+
+    <string name="w.TAerklaert">Die Teigausbeute (TA) gibt an, wie viel Kilogramm Wasser auf 100 Kilogramm Mehl verwendet wird. Je höher die TA, desto mehr Wasser wird verwendet. Aber bitte beachte: Je höher die TA, umso schwieriger ist die Verarbeitung. Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. Das Ergebnis ist eine Teigausbeute von 160.</string>
+
     <string name="w.Hydration">Hydration:</string>
-    <string name="w.hydrationerklaaert">Die Hydration ist ansich dasselbe wie die TA, wird jedoch in Prozent angegeben. Dabei wird der prozentuale Anteil des Wassers im Verhältnis zum Mehl gerechnet. &#10;Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. &#10;Das Ergebnis ist eine Hydration von 60 %.</string>
+
+    <string name="w.hydrationerklaaert">Die Hydration ist ansich dasselbe wie die TA, wird jedoch in Prozent angegeben. Dabei wird der prozentuale Anteil des Wassers im Verhältnis zum Mehl gerechnet. Als Beispiel: 500 Gramm Mehl und 300 Gramm Wasser werden im Rezept verwendet. Das Ergebnis ist eine Hydration von 60 %.</string>
+
     <string name="w.griffigkeit">Griffigkeit:</string>
+
     <string name="w.griffigekiterklaert">Die Griffigkeit bescheibt die Struktur des Mehls. Ist ein Mehl mit hoher Griffigkeit gefragt, ist damit ein dunkles Mehl mit hohem Schalenanteil gemeint.</string>
+
     <string name="w.type">Type:</string>
-    <string name="w.typerklaert">Die Type gibt an, wie viel Milligramm Mineralstoffe auf 100 Gramm Mehl enthalten sind. &#10;Da die Mineralstoffe in dem äußeren Bereich des Korns liegen, steigt die Type, je dunkler das Mehl wird.</string>
+
+    <string name="w.typerklaert">Die Type gibt an, wie viel Milligramm Mineralstoffe auf 100 Gramm Mehl enthalten sind. Da die Mineralstoffe in dem äußeren Bereich des Korns liegen, steigt die Type, je dunkler das Mehl wird.</string>
+
     <string name="w.Schluss">Schluss:</string>
+
     <string name="w.schlusserklaert">Formt man einen Teigballen zu einer Form, gibt es eine Nahtstelle. Diese wird Schluss genannt.</string>
+
     <string name="w.Wirken">Wirken:</string>
+
     <string name="w.synonym">Wird als Synonym für das Formen des Teiges benutzt.</string>
+
     <string name="w.ausbund">Ausbund:</string>
+
     <string name="w.ausbunderklaert">Der aufgerissene Teil der Kruste, welcher im Backprozess entsteht, wird Ausbund genannt. Dieser kann durch einen Schnitt oder zufällig entstehen.</string>
+
     <string name="settings.Entwickler">Die Entwickler stellen sich vor:</string>
+
     <string name="settings.michi">\u25BCMichi</string>
+
     <string name="settings.sebi">\u25BCSebi</string>
-    <string name="VorstellungMichi">"Mein Name ist Michael. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen. In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind. Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: Demnächst werde ich ein Studium in Biochemie beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen. Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen. In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen, und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren. "</string>
-    <string name="VorstelungSebi">Mein Name ist Sebi und ich freue mich, mich euch vorzustellen. Mein Weg begann mit dem Abitur am Technischen Gymnasium, wo ich meine Begeisterung für Technologie und Innovation entdeckte. Anschließend folgte mein Studium der Informatik, das mich in die faszinierende Welt der Programmierung und digitalen Technologien eingeführt hat.
 
-Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Bereich autonomes Fahren. Die Idee, Fahrzeuge mit Hilfe von künstlicher Intelligenz und fortschrittlichen Algorithmen selbstständig navigieren zu lassen, fasziniert mich ungemein. Es ist ein Gebiet, das ständig wächst und die Zukunft der Mobilität maßgeblich beeinflussen wird.
+    <string name="VorstellungMichi">"Mein Name ist Michael. Meine berufliche Reise begann mit einer Ausbildung zur Fachkraft für Lebensmitteltechnik. Schon damals war mir klar, dass ich meine Leidenschaft für Lebensmittel und Technik verbinden möchte, um innovative Produkte zu entwickeln und die Lebensmittelindustrie voranzubringen. \n In den folgenden zwei Jahren durfte ich im Bereich Qualitätswesen tätig sein und habe so einen tiefen Einblick in die Prozesse und Standards gewonnen, die für die Herstellung hochwertiger und sicherer Lebensmittel unerlässlich sind. \n Nach meiner Ausbildung habe ich mich weitergebildet und den Techniker in der Fachrichtung Lebensmitteltechnik abgeschlossen. Nun stehe ich kurz vor einem neuen Kapitel in meinem beruflichen Werdegang: \n Demnächst werde ich ein Biochemie Studium beginnen. Ich freue mich sehr auf diese Herausforderung, da ich dadurch mein Wissen erweitern und vertiefen kann, um noch tiefer in die wissenschaftlichen Aspekte der Lebensmittelentwicklung einzutauchen.\n Abseits meiner beruflichen Laufbahn sind Fussball und Musikverein meine großen Leidenschaften. Im Fußball habe ich nicht nur die Möglichkeit, mich sportlich zu betätigen, sondern auch im Team zu arbeiten und gemeinsam Ziele zu erreichen. In meiner Freizeit bin ich immer offen für neue Erfahrungen. Gerne unternehme ich Wanderungen, um die Natur zu genießen und probiere mich auch gerne in der Küche aus, um neue Rezepte zu kreieren. "</string>
 
-Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf freizubekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren.</string>
+    <string name="VorstelungSebi">Mein Name ist Sebi und ich freue mich, mich euch vorzustellen. Mein Weg begann mit dem Abitur am Technischen Gymnasium, wo ich meine Begeisterung für Technologie und Innovation entdeckte.\n Anschließend folgte mein Studium der Informatik, das mich in die faszinierende Welt der Programmierung und digitalen Technologien eingeführt hat.\n Während meines Studiums entwickelte ich eine besondere Leidenschaft für den Bereich autonomes Fahren. Die Idee, Fahrzeuge mit Hilfe von künstlicher Intelligenz und fortschrittlichen Algorithmen selbstständig navigieren zu lassen, fasziniert mich ungemein. Es ist ein Gebiet, das ständig wächst und die Zukunft der Mobilität maßgeblich beeinflussen wird. \n Neben meiner beruflichen Laufbahn bin ich ein begeisterter Mountainbiker. Die Natur zu erkunden und den Nervenkitzel des Geländefahrens zu erleben, gibt mir die nötige Auszeit vom hektischen Alltag. Es hilft mir, den Kopf freizubekommen und neue Energie zu tanken, um mich in meinen Projekten und Herausforderungen zu engagieren.</string>
+
     <string name="h.sinn">Dieser Rechner hat es sich zur Aufgabe gemacht, für dich die optimale Hefemenge für dein Rezept zu finden. Dies kann nützlich sein, wenn du z.B. ein Rezept findest, das du nachbacken willst, aber mit der vorgegebenen Teigruhezeit unzufrieden bist oder den Teig lieber im Kühlschrank anstatt bei Raumtemperatur lagern willst. Hierfür rechnest du das im Rezept genutzte Mehl (unabhängig von der Mehlsorte) zusammen und trägst es unter Mehlgewicht ein. Danach überlegst du dir, wie lange du deinen Teig ruhen lassen willst - die Stunden und Minuten gibst du im entsprechenden Feld ein. Im letzten Feld trägst du die Temperatur ein, bei dem der Teig ruhen soll. Nachdem du alle drei Sachen eingetragen hast, klickst du auf -Berechnen-. Danach werden dir die benötigten Mengen, an Frisch-,Trockenhefe oder an Sauerteig in Gramm ausgerechnet.</string>
+
     <string name="action_settings">Settings</string>
+
     <string name="spenden.unterstuetzen">Wie könnt Ihr uns unterstützen?</string>
-    <string name="spenden.arten">Gerne kannst du uns auf drei verschiedene Arten unterstützen. Du hast die Möglichkeit, einen köstlichen digitalen Glückskeks für nur 1€ zu kaufen und erhältst dann eine Zukunftsdeutung direkt im Anschluss an den Kauf. Aber mach dir keine Sorgen, die App bleibt natürlich auch in jeder Form kostenlos und kann ohne Spenden ohne Einschränkungen genutzt werden.
-Falls du kein Geld für diesen Keks ausgeben möchtest, kannst du stattdessen den Knopf für den -kostenlosen- Glückskeks anklicken. Dort musst du lediglich ein kurzes Werbevideo vollständig anschauen und erhältst dann sofort deine Zukunftsdeutung, ohne dass du dafür etwas bezahlen musst.
-Und sollte dir ein Glückskeks oder eine Zukunftsdeutung nicht zusagen, gibt es dennoch eine weitere Möglichkeit, wie du uns unterstützen kannst. Über den Button auf unserer Ko-Fi-Seite kannst du uns einen Beitrag für unsere Kaffeekasse hinterlassen, wenn du möchtest. Aber nochmal betont: Die Nutzung der App bleibt in jedem Fall kostenlos und ohne jegliche Einschränkungen.
-Deine Hilfe ist in jeder Form sehr willkommen, und wir danken dir herzlich für deine Unterstützung!</string>
+
+    <string name="spenden.arten">Gerne kannst du uns auf drei verschiedene Arten unterstützen. \n Du hast die Möglichkeit, einen köstlichen digitalen Glückskeks für nur 1€ zu kaufen und erhältst dann eine Zukunftsdeutung direkt im Anschluss an den Kauf.\n Aber mach dir keine Sorgen, die App bleibt natürlich auch in jeder Form kostenlos und kann ohne Spenden ohne Einschränkungen genutzt werden.\n Falls du kein Geld für diesen Keks ausgeben möchtest, kannst du stattdessen den Knopf für den -kostenlosen- Glückskeks anklicken. Dort musst du lediglich ein kurzes Werbevideo vollständig anschauen und erhältst dann sofort deine Zukunftsdeutung, ohne dass du dafür etwas bezahlen musst.\n Und sollte dir ein Glückskeks oder eine Zukunftsdeutung nicht zusagen, gibt es dennoch eine weitere Möglichkeit, wie du uns unterstützen kannst.\n Über den Button auf unserer Ko-Fi-Seite kannst du uns einen Beitrag für unsere Kaffeekasse hinterlassen, wenn du möchtest.\n Aber nochmal betont: Die Nutzung der App bleibt in jedem Fall kostenlos und ohne jegliche Einschränkungen. Deine Hilfe ist in jeder Form sehr willkommen, und wir danken dir herzlich für deine Unterstützung!</string>
+
     <string name="spenden.keks">Glückskeks für 1€</string>
+
     <string name="spenden.Kaffeekasse">Kaffeekasse</string>
+
     <string name="spenden.kostenloser">kostenloser Glückskeks</string>
-<string name="spenden.buttonKeks">Glückskeks</string>
-<string name="spenden.txtkeks">Mit diesem  Knopf kannst du einen köstlichen digitalen Glückskeks für nur 1€ erwerben und im Anschluss deine persönliche Zukunftsdeutung erhalten. Der Glückskeks bringt nicht nur Freude, sondern ermöglicht auch einen Einblick in deine Zukunft!
 
-Bitte beachte, dass der Kauf des Glückskekses mit echtem Geld erfolgt</string>
+    <string name="spenden.buttonKeks">Glückskeks</string>
 
-<string name="spenden.txtkostenkeks">Mit diesem besonderen Knopf erhältst du einen kostenlosen Glückskeks. Es ist ganz einfach: Drücke den Knopf, schau dir die kurze Werbung an, die daraufhin erscheint, und nachdem du die Werbung geschlossen hast, erhältst du sofort die Deutung deiner Zukunft.
-Das Beste daran ist, dass diese Version des Kekses für dich vollständig kostenlos ist! Gleichzeitig ist es für uns eine sinnvolle Möglichkeit, da wir durch die Werbeeinnahmen die App weiter verbessern können, damit du noch mehr Freude und Nutzen daraus ziehen kannst.
-Also worauf wartest du? Hol dir deinen kostenlosen Glückskeks und erhalte eine spannende Zukunftsdeutung!</string>
-<string name="spenden.GeldfürunsereKaffeekasse">Geld für unsere Kaffeekasse</string>
-    <string name="spenden.txtKaffekasse">Wenn du auf diesen Knopf klickst, gelangst du direkt auf unsere Ko-Fi-Seite. Dort hast du die Möglichkeit, uns mit dem Zahlungsmittel deiner Wahl einen frei wählbaren Betrag in unsere Kaffeekasse zu geben. Mit diesem Geld können wir uns unser Lebenselixier, den Kaffee, kaufen und auch nachts an Verbesserungen für die App arbeiten.
+    <string name="spenden.txtkeks">Mit diesem Knopf kannst du einen köstlichen digitalen Glückskeks für nur 1€ erwerben und im Anschluss deine persönliche Zukunftsdeutung erhalten. Der Glückskeks bringt nicht nur Freude, sondern ermöglicht auch einen Einblick in deine Zukunft! Bitte beachte, dass der Kauf des Glückskekses mit echtem Geld erfolgt</string>
 
-Denn wie heißt es so schön: -Glaube an Wunder, Liebe und vor allem an Kaffee.- \n
+    <string name="spenden.txtkostenkeks">Mit diesem besonderen Knopf erhältst du einen kostenlosen Glückskeks. \n Es ist ganz einfach: Drücke den Knopf, schau dir die kurze Werbung an, die daraufhin erscheint, und nachdem du die Werbung geschlossen hast, erhältst du sofort die Deutung deiner Zukunft.\n Das Beste daran ist, dass diese Version des Kekses für dich vollständig kostenlos ist! Gleichzeitig ist es für uns eine sinnvolle Möglichkeit, da wir durch die Werbeeinnahmen die App weiter verbessern können, damit du noch mehr Freude und Nutzen daraus ziehen kannst.\n Also worauf wartest du? Hol dir deinen kostenlosen Glückskeks und erhalte eine spannende Zukunftsdeutung!</string>
 
-Deine Unterstützung ist uns eine enorme Hilfe, um die App noch besser und nutzerfreundlicher zu gestalten. Wir sind unglaublich dankbar für jeden Beitrag, der uns ermöglicht, unsere Leidenschaft für diese App fortzuführen und sie stetig zu verbessern.
+    <string name="spenden.GeldfürunsereKaffeekasse">Geld für unsere Kaffeekasse</string>
 
-Also, falls du uns unterstützen möchtest und uns eine Tasse Kaffee gönnen willst, freuen wir uns über jeden Beitrag, den du geben kannst.
+    <string name="spenden.txtKaffekasse">Wenn du auf diesen Knopf klickst, gelangst du direkt auf unsere Ko-Fi-Seite. \n Dort hast du die Möglichkeit, uns mit dem Zahlungsmittel deiner Wahl einen frei wählbaren Betrag in unsere Kaffeekasse zu geben. Mit diesem Geld können wir uns unser Lebenselixier, den Kaffee, kaufen und auch nachts an Verbesserungen für die App arbeiten. Denn wie heißt es so schön:\n -Glaube an Wunder, Liebe und vor allem an Kaffee.- \n Deine Unterstützung ist uns eine enorme Hilfe, um die App noch besser und nutzerfreundlicher zu gestalten.\n Wir sind unglaublich dankbar für jeden Beitrag, der uns ermöglicht, unsere Leidenschaft für diese App fortzuführen und sie stetig zu verbessern.\n Also, falls du uns unterstützen möchtest und uns eine Tasse Kaffee gönnen willst, freuen wir uns über jeden Beitrag, den du geben kannst.\n Natürlich ist es uns wichtig, darauf hinzuweisen, dass du keinesfalls dein letztes Geld für diese App ausgeben solltest. Wenn du bereits Schwierigkeiten hast, Geld für wichtige Ausgaben wie die Miete zusammenzukratzen, dann freue dich einfach an dieser wundervollen kostenlosen App und behalte dein Geld lieber für die Dinge, die für dich wirklich wichtig sind.\n Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, dass du dich in keiner Weise finanziell belastest.\n Die Nutzung der App bleibt weiterhin komplett kostenlos und unbeschränkt, sodass du sie jederzeit ohne Bedenken genießen kannst.</string>
 
-Natürlich ist es mir wichtig, darauf hinzuweisen, dass du keinesfalls dein letztes Geld für diese App ausgeben solltest. Wenn du bereits Schwierigkeiten hast, Geld für wichtige Ausgaben wie die Miete zusammenzukratzen, dann freue dich einfach an dieser wundervollen kostenlosen App und behalte dein Geld lieber für die Dinge, die für dich wirklich wichtig sind.
-
-Deine Zufriedenheit und Wohlergehen liegen uns sehr am Herzen und wir möchten, dass du dich in keiner Weise finanziell belastest. Die Nutzung der App bleibt weiterhin komplett kostenlos und unbeschränkt, sodass du sie jederzeit ohne Bedenken genießen kannst.</string>
-
-
-<string name="Spracheaendern">Gewünschte Sprache</string>
+    <string name="Spracheaendern">Gewünschte Sprache</string>
 
     <string name="Code1">Heute ist dein Glückstag. Gehe mutig voran!</string>
+
     <string name="Code2">Du wirst bald eine unerwartete Freude erleben.</string>
+
     <string name="Code3">Glaube an dich selbst, denn du bist fähiger, als du denkst.</string>
+
     <string name="Code4">Die besten Dinge im Leben sind noch auf dem Weg zu dir.</string>
+
     <string name="Code5">Sei geduldig, gute Dinge brauchen Zeit.</string>
+
     <string name="Code6">Deine Kreativität wird dich zu großartigen Erfolgen führen.</string>
+
     <string name="Code7">Heute ist ein Tag voller positiver Überraschungen.</string>
+
     <string name="Code8">Ein Lächeln kann vieles bewirken, probiere es aus.</string>
+
     <string name="Code9">Gute Dinge kommen zu denen, die darauf warten.</string>
+
     <string name="Code10">Deine Hartnäckigkeit wird sich auszahlen, bleib dran!</string>
+
     <string name="Code11">Sei offen für neue Möglichkeiten, sie könnten dich überraschen.</string>
+
     <string name="Code12">Du hast die Fähigkeit, Hindernisse zu überwinden.</string>
+
     <string name="Code13">Die heutigen Schwierigkeiten werden morgen Erinnerungen sein.</string>
+
     <string name="Code14">Glaube an dich selbst, und andere werden es auch tun.</string>
+
     <string name="Code15">Deine Intuition wird dich auf den richtigen Weg führen.</string>
+
     <string name="Code16">Setze dir klare Ziele und verfolge sie beharrlich.</string>
+
     <string name="Code17">Du wirst bald eine besondere Gelegenheit erhalten.</string>
+
     <string name="Code18">Halte Ausschau nach den kleinen Freuden des Lebens.</string>
+
     <string name="Code19">Glück kommt zu denen, die positiv denken.</string>
+
     <string name="Code20">Deine Ausdauer wird dich ans Ziel bringen.</string>
+
     <string name="Code21">Lass die Vergangenheit hinter dir und fokussiere dich auf die Zukunft.</string>
+
     <string name="Code22">Vertraue auf deine Instinkte, sie werden dich leiten.</string>
+
     <string name="Code23">Du wirst von der Unterstützung deiner Freunde profitieren.</string>
+
     <string name="Code24">Heute ist ein guter Tag, um ein Risiko einzugehen.</string>
+
     <string name="Code25">Du hast die Kraft, deine Träume wahr werden zu lassen.</string>
+
     <string name="Code26">Behandle andere so, wie du behandelt werden möchtest.</string>
+
     <string name="Code27">Dein Einfallsreichtum wird bewundert werden.</string>
+
     <string name="Code28">Heute ist ein Tag, um dankbar zu sein für das, was du hast.</string>
+
     <string name="Code29">Die Lösung für dein Problem liegt bereits in dir.</string>
+
     <string name="Code30">Es gibt immer einen Grund zum Lächeln, finde deinen!</string>
+
     <string name="Code31">Die beste Zeit für einen Neuanfang ist jetzt.</string>
+
     <string name="Code32">Glaube an die Magie des Anfangs, alles ist möglich.</string>
+
     <string name="Code33">Deine Talente werden bald Anerkennung finden.</string>
+
     <string name="Code34">Freue dich über die kleinen Fortschritte, die du machst.</string>
+
     <string name="Code35">Halte an deinen Träumen fest, sie sind es wert.</string>
+
     <string name="Code36">Deine Freundlichkeit wird anderen Freude bereiten.</string>
+
     <string name="Code37">Die Welt wartet darauf, von dir entdeckt zu werden.</string>
+
     <string name="Code38">Vertraue auf deine Fähigkeit, Hindernisse zu überwinden.</string>
+
     <string name="Code39">Du bist einzigartig, zeige der Welt deine Individualität.</string>
+
     <string name="Code40">Heute ist ein Tag, um anderen Menschen zu helfen.</string>
-<string name="rechner.beschreibung">Willkommen zu unserem praktischen Rezept-Umrechner! Mit diesem intelligenten Tool kannst du die Mengen eines vorhandenen Rezepts spielend leicht umrechnen. Egal ob du ein Rezept für ein leckeres Brot gefunden hast, aber gerne gleich zwei davon backen möchtest, oder ob du einfach nur eine kleinere Portion zubereiten möchtest, dieser Rechner macht es dir einfach!
 
-Stell dir vor, du hast ein fantastisches Rezept gefunden, das dir das Wasser im Mund zusammenlaufen lässt. Aber dann kommt der Moment, in dem du feststellst, dass die Mengenangaben nur für eine Portion gedacht sind. Keine Sorge, mit unserem Rezept-Umrechner ist das ab jetzt kein Problem mehr!
-
-Du musst nicht länger alle Zutaten im Kopf doppelt rechnen oder mühsam umrechnen. Alles, was du tun musst, ist die Zutatenmengen in das Formular einzutragen und den gewünschten Multiplikator auszuwählen. Möchtest du die doppelte Menge zubereiten, einfach einen Multiplikator von 2 wählen. Und wenn du nur die Hälfte des Rezepts machen möchtest, entscheide dich für den Multiplikator 0.5.Natürlich darfst du auch andere Faktoren wählen</string>
+    <string name="rechner.beschreibung">Willkommen zu unserem praktischen Rezept-Umrechner! Mit diesem intelligenten Tool kannst du die Mengen eines vorhandenen Rezepts spielend leicht umrechnen. Egal ob du ein Rezept für ein leckeres Brot gefunden hast, aber gerne gleich zwei davon backen möchtest, oder ob du einfach nur eine kleinere Portion zubereiten möchtest, dieser Rechner macht es dir einfach! Stell dir vor, du hast ein fantastisches Rezept gefunden, das dir das Wasser im Mund zusammenlaufen lässt. Aber dann kommt der Moment, in dem du feststellst, dass die Mengenangaben nur für eine Portion gedacht sind. Keine Sorge, mit unserem Rezept-Umrechner ist das ab jetzt kein Problem mehr! Du musst nicht länger alle Zutaten im Kopf doppelt rechnen oder mühsam umrechnen. Alles, was du tun musst, ist die Zutatenmengen in das Formular einzutragen und den gewünschten Multiplikator auszuwählen. Möchtest du die doppelte Menge zubereiten, einfach einen Multiplikator von 2 wählen. Und wenn du nur die Hälfte des Rezepts machen möchtest, entscheide dich für den Multiplikator 0.5.Natürlich darfst du auch andere Faktoren wählen</string>
 
     <string name="rechner.Rezeptrechner">Rezeptrechner</string>
+
     <string name="Zutat1">Zutat 1</string>
+
     <string name="zutat2">Zutat 2</string>
+
     <string name="zutat3">Zutat 3</string>
+
     <string name="zutat4">Zutat 4</string>
+
     <string name="zutat5">Zutat 5</string>
+
     <string name="zutat6">Zutat 6</string>
+
     <string name="Multiplikator">Multiplikator</string>
+
     <string name="Rezeptrechner">Rezeptrechner</string>
+
 </resources>

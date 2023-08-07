@@ -82,10 +82,11 @@
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:text="@string/VorstellungMichi"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            android:textSize="18sp"
 
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView2" />
@@ -94,10 +95,11 @@
             android:id="@+id/textView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:text="@string/VorstelungSebi"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            android:textSize="18sp"
 
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headlineTextView3" />
@@ -118,16 +120,18 @@
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/textView18"
             />
+
         <TextView
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:text="@string/spenden.arten"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headlineTextView6" />
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headlineTextView6" />
         <TextView
             android:id="@+id/headlineTextView7"
             android:layout_width="match_parent"
@@ -188,6 +192,7 @@
             android:id="@+id/headlineTextView8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
             android:focusable="true"
@@ -216,11 +221,12 @@
             android:id="@+id/headlineTextView9"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
             android:background="@drawable/textview_border"
             android:clickable="true"
             android:focusable="true"
-            android:focusableInTouchMode="true"
 
+            android:focusableInTouchMode="true"
             android:fontFamily="sans-serif"
             android:text="@string/spenden.GeldfürunsereKaffeekasse"
             android:textSize="26sp"
